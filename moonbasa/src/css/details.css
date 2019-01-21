@@ -1,0 +1,886 @@
+.header, .header_nav, .header_topic, .footer, .footer_help, .footer_copyright {
+  width: 100%;
+}
+
+.header_nav .nav_inner, .header_topic .topic_inner, .header_logo, .footer_help .help_inner, .footer_copyright .copy_inner {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.header_nav {
+  height: 35px;
+  background-color: #222;
+}
+.header_nav .nav_inner .inner_left {
+  width: 301px;
+  height: 26px;
+  float: left;
+  background: url(http://i0.mbscss.com/img/moonbasa/2018/ydw/M4_25_114110.jpg) no-repeat -22px top;
+}
+.header_nav .nav_inner .inner_right {
+  width: 456px;
+  height: 26px;
+  float: right;
+  font-size: 12px;
+  color: #fff;
+  padding-top: 10px;
+  position: relative;
+}
+.header_nav .nav_inner .inner_right a {
+  display: inline-block;
+  padding: 0 8px;
+  text-decoration: none;
+  color: #fff;
+  position: relative;
+}
+.header_nav .nav_inner .inner_right a img {
+  position: absolute;
+  left: -70px;
+  top: 20px;
+  display: none;
+}
+.header_nav .nav_inner .inner_right .phone {
+  padding-left: 14px;
+  background: url(http://i3.mbscss.com/img/moonbasa/2015/04/lyz/0831205002.jpg) no-repeat;
+}
+.header_nav .nav_inner .inner_right .cart {
+  background: url(http://i1.mbscss.com/img/moonbasa/2018/ydw/M4_26_101323.png) no-repeat 50px -7px;
+  width: 50px;
+  height: 20px;
+}
+.header_nav .nav_inner .inner_right .weixing img {
+  left: -120px;
+}
+.header_nav .nav_inner .inner_right .cart_none {
+  width: 358px;
+  height: 20px;
+  border: solid 1px #f2f2f2;
+  background-color: #FFF;
+  position: absolute;
+  right: 17px;
+  top: 27px;
+  padding: 40px 0;
+  color: #000;
+  text-align: center;
+}
+
+.header_topic {
+  height: 48px;
+  background-color: #f6f6f6;
+}
+.header_topic .topic_inner {
+  text-align: center;
+  overflow: hidden;
+}
+.header_topic .topic_inner a {
+  float: left;
+  display: block;
+}
+.header_topic .topic_inner a img {
+  width: 240px;
+  height: 48px;
+  border: 0;
+}
+
+.header_logo {
+  height: 103px;
+  background-color: #fff;
+  padding: 10px 0 16px;
+  margin-top: 10px;
+}
+.header_logo .logo_left {
+  float: left;
+  width: 320px;
+}
+.header_logo .logo_left a {
+  background: transparent url(http://i1.mbscss.com/img/moonbasa/2018/ydw/M6_26_100916.jpg) no-repeat scroll center !important;
+  display: block;
+  height: 129px;
+  width: 320px;
+  margin-top: -10px;
+}
+.header_logo .search {
+  width: 500px;
+  float: left;
+  padding: 20px 0 0 55px;
+}
+.header_logo .search .search_input {
+  width: 540px;
+  height: 35px;
+  background: url(http://i3.mbscss.com/img/moonbasa/2015/09/bon/ssbg.jpg) no-repeat;
+}
+.header_logo .search .search_input .inp input {
+  width: 440px;
+  height: 29px;
+  padding-left: 5px;
+  line-height: 30px;
+  margin: 2px 4px 0 4px;
+  color: #b9b9b9;
+  text-indent: 7px;
+  border: none;
+}
+.header_logo .search .search_input .sub input {
+  width: 80px;
+  height: 30px;
+  text-indent: -200px;
+  background: 0;
+  border: 0;
+}
+.header_logo .search .key {
+  color: #9c9d9f;
+  padding: 5px;
+  font-size: 12px;
+}
+.header_logo .search .key a {
+  color: #9c9d9f;
+  text-decoration: none;
+  padding: 0 3px;
+}
+.header_logo .logo_right {
+  float: right;
+}
+
+.header, .header_nav, .header_topic, .footer, .footer_help, .footer_copyright {
+  width: 100%;
+}
+
+.header_nav .nav_inner, .header_topic .topic_inner, .header_logo, .footer_help .help_inner, .footer_copyright .copy_inner {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.shop_menu {
+  width: 100%;
+  background-color: #ac0c70;
+}
+
+.menu_inner {
+  width: 1200px;
+  margin: 0 auto;
+  height: 33px;
+}
+.menu_inner ul li {
+  float: left;
+  width: 127px;
+  height: 33px;
+  text-align: center;
+  line-height: 33px;
+  border-right: 1px solid #900040;
+}
+.menu_inner ul li a {
+  display: block;
+  color: #fff;
+  font-size: 14px;
+  height: 33px;
+  line-height: 33px;
+  text-decoration: none;
+}
+.menu_inner .all {
+  margin-left: 60px;
+  border-left: 1px solid #900040;
+}
+
+.product {
+  width: 100%;
+  height: 730px;
+  background-color: #fff;
+}
+.product .product_inner {
+  width: 1200px;
+  margin: 20px auto;
+}
+.product .product_inner .product_left {
+  float: left;
+  width: 431px;
+  padding: 8px 0 14px;
+}
+.product .product_inner .product_left .page {
+  float: left;
+  width: 351px;
+  padding: 0 0 5px 14px;
+  color: #9a9a9a;
+}
+.product .product_inner .product_left .page a {
+  color: #9a9a9a;
+  text-decoration: none;
+  font-size: 12px;
+}
+.product .product_inner .product_left .pic {
+  width: 380px;
+  margin: 0 15px;
+  clear: both;
+  position: relative;
+}
+.product .product_inner .product_left .pic .pic_lubo {
+  margin: 20px auto;
+  position: relative;
+}
+.product .product_inner .product_left .pic .pic_lubo .btn_left {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  width: 33px;
+  height: 79px;
+  cursor: pointer;
+  background: url(http://i2.mbscss.com/img/moonbasa2/20151209/slon.png) no-repeat 0 26px;
+}
+.product .product_inner .product_left .pic .pic_lubo .btn_right {
+  position: absolute;
+  right: -10px;
+  width: 33px;
+  height: 79px;
+  cursor: pointer;
+  background: url(http://i2.mbscss.com/img/moonbasa2/20151209/sron.png) no-repeat 10px 26px;
+}
+.product .product_inner .product_left .spic {
+  width: 385px;
+  height: 520px;
+  border: 1px solid #ccc;
+}
+.product .product_inner .product_left .spic img {
+  width: 385px;
+  height: 520px;
+}
+.product .product_inner .product_left .sf {
+  background-color: rgba(255, 255, 0, 0.3);
+  border: 1px solid #ccc;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+.product .product_inner .product_left .bf {
+  width: 380px;
+  height: 520px;
+  position: absolute;
+  left: 400px;
+  top: 0;
+  border: 1px solid #ccc;
+  overflow: hidden;
+  display: none;
+  z-index: 999;
+}
+.product .product_inner .product_left .bpic {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.product .product_inner .product_left .pic_list {
+  overflow: hidden;
+  width: 300px;
+  position: relative;
+  margin-left: 44px;
+}
+.product .product_inner .product_left .pic_list ul {
+  width: 300px;
+  left: 0px;
+}
+.product .product_inner .product_left .pic_list ul li {
+  float: left;
+  width: 60px;
+  height: 81px;
+  overflow: hidden;
+}
+.product .product_inner .product_left .pic_list ul li a {
+  position: relative;
+  display: block;
+  width: 50px;
+  height: 68px;
+  border: 1px solid #fff;
+}
+.product .product_inner .product_left .pic_list ul li a img {
+  width: 50px;
+  height: 68px;
+  cursor: pointer;
+  border: 1px solid #fff;
+}
+.product .product_inner .product_left .pic_list ul li a .hover {
+  border: 1px solid #000;
+}
+.product .product_inner .product_left .share {
+  width: 380px;
+  height: 22px;
+  margin-top: 8px;
+  color: #484747;
+  font-size: 12px;
+}
+.product .product_inner .product_left .share p a {
+  text-decoration: none;
+  color: #484747;
+  float: right;
+  margin-left: 15px;
+  line-height: 16px;
+  padding-left: 16px;
+  background: url(http://i2.mbscss.com/img/moonbasa2/20151209/16012224.png) no-repeat -1px 1px;
+}
+.product .product_inner .product_mid {
+  float: left;
+  border-right: 1px solid #E8E8E8;
+  margin-top: 32px;
+  margin-bottom: 15px;
+  width: 550px;
+  min-height: 625px;
+  margin-top: 30px;
+  padding: 0 55px 10px 14px;
+  color: #6a6a6a;
+}
+.product .product_inner .product_mid h2 {
+  width: 100%;
+  overflow: hidden;
+  color: #1c1c1c;
+  font-family: 'Microsoft Yahei';
+  font-weight: 400;
+  font-size: 20px;
+}
+.product .product_inner .product_mid .lookp {
+  background: url(http://i0.mbscss.com/img/moonbasa2/item/goods_price_bg.png);
+  height: 126px;
+  margin-top: 15px;
+  padding-left: 16px;
+  padding-top: 10px;
+  position: relative;
+  width: 547px;
+}
+.product .product_inner .product_mid .lookp .price {
+  height: 52px;
+  width: 310px;
+  margin: 5px 0 0 4px;
+  color: #e70164;
+  float: left;
+}
+.product .product_inner .product_mid .lookp .price .leftPrice {
+  height: 52px;
+  font-size: 48px;
+  line-height: 48px;
+  vertical-align: top;
+  display: block;
+  color: #e50065;
+  float: left;
+  margin-left: -4px;
+}
+.product .product_inner .product_mid .lookp .price .leftPrice i {
+  font-size: 20px;
+  font-style: normal;
+}
+.product .product_inner .product_mid .lookp .price .leftPrice b {
+  font-weight: 500;
+  margin-left: 6px;
+}
+.product .product_inner .product_mid .lookp .price .rightPrice {
+  float: left;
+}
+.product .product_inner .product_mid .lookp .price .rightPrice .discountBox {
+  display: block;
+  font-size: 12px;
+  color: #fff;
+  text-align: center;
+  padding: 2px 0;
+  margin: 7px 16px 0 8px;
+  width: 55px;
+  line-height: 14px;
+  background: url(http://i2.mbscss.com/img/moonbasa2/20151209/p01.png) no-repeat;
+}
+.product .product_inner .product_mid .lookp .price .rightPrice .markBox {
+  padding: 0 20px 0 10px;
+  color: #666;
+  font-size: 14px;
+  line-height: 20px;
+}
+.product .product_inner .product_mid .lookp .codeshow {
+  width: 145px;
+  border-top: 1px dashed #D58E64;
+  float: right;
+  margin-top: 10px;
+  padding-top: 1px;
+  position: relative;
+}
+.product .product_inner .product_mid .lookp .codeshow .cart-pic {
+  display: block;
+  float: left;
+  cursor: pointer;
+}
+.product .product_inner .product_mid .lookp .codeshow .mb-p {
+  float: right;
+  width: 90px;
+  font-size: 12px;
+  padding-top: 6px;
+}
+.product .product_inner .product_mid .lookp .codeshow .ercode {
+  display: none;
+  position: absolute;
+  background: #fff;
+  width: 99%;
+  height: 120px;
+  top: 0;
+  left: 0;
+  border: 1px solid #e3e3e3;
+  border-top: none;
+  padding-top: 20px;
+  text-align: center;
+}
+.product .product_inner .product_mid .lookp .codeshow .ercode img {
+  width: 100px;
+  height: 100px;
+}
+.product .product_inner .product_mid .lookp .codeshow .ercode a {
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  text-decoration: none;
+  font-size: 18px;
+}
+.product .product_inner .product_mid .lookp .bao {
+  float: left;
+  font-size: 12px;
+  width: 100%;
+  line-height: 28px;
+  padding-left: 8px;
+}
+.product .product_inner .product_mid .lookp .cheap {
+  float: left;
+  font-size: 12px;
+}
+.product .product_inner .product_mid .lookp .cheap i {
+  width: 63px;
+  padding-left: 4px;
+  color: #E50362;
+  font-style: normal;
+}
+.product .product_inner .product_mid .lookp .cheap .tag {
+  display: inline-block;
+  width: 36px;
+  height: 16px;
+  margin-top: 5px;
+  line-height: 16px;
+  text-align: center;
+  background: #E50362;
+  color: #fff;
+}
+.product .product_inner .product_mid .lookp .uaresb {
+  background: #f4f4f4 url(http://i2.mbscss.com/img/moonbasa2/20130317/icon_down.jpg) no-repeat right 50%;
+  margin-right: 12px;
+  padding-right: 12px;
+  float: right;
+  position: absolute;
+  height: 37px;
+  right: 0;
+  top: 90px;
+  line-height: 37px;
+  font-size: 12px;
+  cursor: pointer;
+}
+.product .product_inner .product_mid .lookp .active {
+  display: none;
+  width: 510px;
+  overflow: hidden;
+  position: absolute;
+  height: auto;
+  top: 100px;
+  background: #fff;
+  padding: 5px 10px 10px;
+  border: 1px solid #e3e3e3;
+  z-index: 1;
+  left: 20px;
+  font-size: 12px;
+}
+.product .product_inner .product_mid .lookp .active .til {
+  text-align: right;
+  border-bottom: 1px dotted #D8D8D8;
+  padding: 2px 2px;
+  margin-bottom: 8px;
+  color: #888;
+}
+.product .product_inner .product_mid .lookp .active .til a {
+  cursor: pointer;
+}
+.product .product_inner .product_mid .lookp .active .cheap {
+  width: 100%;
+  float: left;
+  margin-top: 5px;
+  line-height: 26px;
+}
+.product .product_inner .product_mid .lookp .active .more {
+  width: 100%;
+  float: left;
+  position: relative;
+  margin-top: 15px;
+  padding-top: 10px;
+  border-top: 1px dotted #d8d8d8;
+}
+.product .product_inner .product_mid .data {
+  padding-top: 25px;
+  position: relative;
+}
+.product .product_inner .product_mid .data .top {
+  padding-bottom: 5px;
+  color: #666;
+  font-size: 12px;
+  line-height: 22px;
+  margin-top: 25px;
+}
+.product .product_inner .product_mid .data .top li {
+  float: left;
+}
+.product .product_inner .product_mid .data .top .tit {
+  float: left;
+  width: 35px;
+  line-height: 27px;
+}
+.product .product_inner .product_mid .data .top .color {
+  width: 543px;
+  height: 47px;
+}
+.product .product_inner .product_mid .data .top .color .txt {
+  width: 360px;
+  float: left;
+  margin-top: -7px;
+}
+.product .product_inner .product_mid .data .top .color .txt .selectcolor {
+  float: left;
+  background: url(http://i2.mbscss.com/img/moonbasa2/20130317/color_bg.jpg) no-repeat;
+  border: 0;
+  padding: 2px;
+  height: 42px;
+  width: 98px;
+}
+.product .product_inner .product_mid .data .top .color .txt .selectcolor img {
+  display: block;
+  width: 28px;
+  height: 38px;
+  border-right: 2px solid #ccccca;
+}
+.product .product_inner .product_mid .data .top .color .txt .selectcolor a {
+  float: left;
+  text-decoration: none;
+  color: #666;
+}
+.product .product_inner .product_mid .data .top .color .txt .selectcolor .s1 {
+  padding: 5px 0 0 0;
+  line-height: 16px;
+  display: inline-block;
+  width: 60px;
+  text-align: center;
+}
+.product .product_inner .product_mid .data .top .size {
+  width: 543px;
+  height: 50px;
+  padding-top: 15px;
+}
+.product .product_inner .product_mid .data .top .size a {
+  float: left;
+  min-width: 43px;
+  height: 28px;
+  margin: 0 9px 5px 0;
+  line-height: 28px;
+  text-align: center;
+  border: 1px solid #ccc;
+  font-size: 12px;
+  text-decoration: none;
+}
+.product .product_inner .product_mid .data .top .num {
+  width: 543px;
+  height: 50px;
+  margin-top: 15px;
+}
+.product .product_inner .product_mid .data .top .num p {
+  float: left;
+  border: 1px solid #ccc;
+  width: 78px;
+  height: 32px;
+  position: relative;
+}
+.product .product_inner .product_mid .data .top .num p b, .product .product_inner .product_mid .data .top .num p i {
+  width: 54px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  color: #000;
+  font-size: 14px;
+  font-weight: lighter;
+  float: left;
+  border-right: 1px solid #ccc;
+}
+.product .product_inner .product_mid .data .top .num p i {
+  height: 16px;
+  line-height: 16px;
+  width: 22px;
+  right: 0;
+  position: absolute;
+  cursor: pointer;
+}
+.product .product_inner .product_mid .data .top .num p .add {
+  border-bottom: 1px solid #ccc;
+  background: url(http://i2.mbscss.com/img/moonbasa2/20151209/add.png) no-repeat 50%;
+  top: 0;
+}
+.product .product_inner .product_mid .data .top .num p .reduce {
+  background: url(http://i2.mbscss.com/img/moonbasa2/20151209/remove.png) no-repeat 50%;
+  bottom: 0;
+}
+.product .product_inner .product_mid .data .top .num span {
+  float: left;
+  padding: 3px 0 0 12px;
+  color: #7f7f7f;
+}
+.product .product_inner .product_mid .data .cart_btn {
+  width: 560px;
+  height: 50px;
+  margin: 10px 0;
+}
+.product .product_inner .product_mid .data .cart_btn span {
+  float: left;
+  width: 204px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-family: 'Microsoft Yahei';
+  font-size: 18px;
+}
+.product .product_inner .product_mid .data .cart_btn .buy {
+  background: #fff;
+  cursor: pointer;
+  border: 1px solid #E40165;
+  color: #e70164;
+  margin-right: 30px;
+}
+.product .product_inner .product_mid .data .cart_btn .join {
+  background: #e50065;
+  cursor: pointer;
+  margin-right: 10px;
+  color: #fff;
+  border: 1px solid #e50065;
+}
+.product .product_inner .product_mid .data .bottom {
+  width: 100%;
+  height: 62px;
+  font-size: 12px;
+  color: #6a6a6a;
+  margin-top: 20px;
+}
+.product .product_inner .product_mid .data .bottom ul {
+  padding: 5px 0;
+}
+.product .product_inner .product_mid .data .bottom ul li {
+  float: left;
+  padding: 0 24px 0 0;
+  margin-top: 8px;
+  margin-bottom: 12px;
+}
+.product .product_inner .product_mid .data .bottom ul li img {
+  float: left;
+  margin-right: 5px;
+}
+.product .product_inner .product_right {
+  width: 126px;
+  float: left;
+  margin: 30px 0 0 20px;
+}
+.product .product_inner .product_right p {
+  text-align: center;
+  font-size: 14px;
+  color: #dedede;
+  font-family: 'Microsoft Yahei';
+  margin-bottom: 8px;
+}
+.product .product_inner .product_right p span {
+  color: #333;
+  margin: 0 15px;
+}
+.product .product_inner .product_right ul li {
+  margin: 2px 0;
+}
+.product .product_inner .product_right ul li a {
+  display: block;
+  width: 120px;
+  height: 162px;
+  text-align: center;
+}
+.product .product_inner .product_right ul li .jz {
+  color: #555;
+  margin: 5px 0 10px;
+}
+.product .product_inner .product_right .tagbtn a {
+  width: 54px;
+  height: 24px;
+  float: left;
+}
+.product .product_inner .product_right .tagbtn .prev {
+  background: url(http://i2.mbscss.com/img/moonbasa2/20151209/lbu.png) no-repeat 100%;
+}
+.product .product_inner .product_right .tagbtn .next {
+  background: url(http://i2.mbscss.com/img/moonbasa2/20151209/lbd.png) no-repeat 70%;
+}
+
+.mask {
+  width: 100%;
+  height: 1500px;
+  background: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  display: none;
+}
+
+.mola {
+  width: 600px;
+  height: 400px;
+  margin: 100px auto;
+  border: 1px solid #aaa;
+  background-color: #fff;
+  position: absolute;
+  left: 500px;
+  top: 250px;
+  z-index: 999;
+  display: none;
+}
+.mola h3 {
+  height: 30px;
+  line-height: 30px;
+}
+.mola h3 .close {
+  float: right;
+  margin-right: 20px;
+  font-size: 20px;
+  color: #333;
+  text-decoration: none;
+}
+.mola .cart {
+  height: 160px;
+  background: url(http://images5.moonbasa.com/img/product/pro_cart.jpg) no-repeat 35% 50px;
+  color: #000;
+  font-size: 13px;
+  line-height: 26px;
+  margin: 25px 10px 0 17px;
+  padding: 0 0 8px 250px;
+  text-align: left;
+  width: 280px;
+}
+.mola .cart .p1 {
+  font-size: 14px;
+  font-weight: bold;
+  padding: 50px 0 0 0;
+}
+.mola .cart .p2 {
+  font-size: 13px;
+  line-height: 26px;
+  margin: 0;
+  padding: 0;
+}
+.mola .cart .p2 b {
+  color: #D4003B;
+  font-weight: bold;
+}
+.mola .cart .p3 {
+  padding-top: 30px;
+  margin-left: -85px;
+}
+.mola .cart .p3 a {
+  padding: 0 10px;
+}
+
+.footer {
+  height: 400px;
+  background-color: #fff;
+}
+
+.footer_help {
+  height: 145px;
+  background: #ececec;
+  padding: 5px 0 10px 0;
+}
+.footer_help .help_inner ul {
+  float: left;
+  padding: 10px 32px 0 32px;
+}
+.footer_help .help_inner ul li {
+  list-style: none;
+  line-height: 20px;
+}
+.footer_help .help_inner ul li a {
+  text-decoration: none;
+  color: #7f7f7f;
+  font-size: 12px;
+}
+.footer_help .help_inner ul li font {
+  font-size: 12px;
+  color: #7f7f7f;
+  line-height: 16px;
+}
+.footer_help .help_inner ul .lititle a {
+  color: #2f2f2f;
+  font-weight: 600;
+}
+
+.footer_info {
+  width: 670px;
+  height: 39px;
+  margin: 15px auto 0;
+}
+.footer_info img {
+  float: left;
+  padding: 0 16px;
+  border-right: 1px solid #d9d9d9;
+}
+
+.footer_copyright {
+  height: 49px;
+  margin-top: 40px;
+  padding-bottom: 20px;
+}
+.footer_copyright .copy_inner {
+  position: relative;
+}
+.footer_copyright .copy_inner p {
+  text-align: center;
+  font-size: 12px;
+  color: #797979;
+  line-height: 22px;
+}
+.footer_copyright .copy_inner p a {
+  text-decoration: none;
+  color: #797979;
+}
+.footer_copyright .copy_inner p a:hover {
+  color: #e60067;
+}
+.footer_copyright .copy_inner .qxpp {
+  width: 465px;
+  border: solid 1px #CCC;
+  background: #f2f2f2;
+  color: #565656;
+  line-height: 22px;
+  position: absolute;
+  left: 375px;
+  top: 20px;
+  text-align: left;
+  padding: 5px 10px 5px 10px;
+  display: none;
+  font-size: 12px;
+}
+.footer_copyright .copy_inner .qxpp a {
+  text-decoration: none;
+  color: #797979;
+  padding: 0 5px 0 5px;
+  display: block;
+  float: left;
+}
+
+.footer_logo {
+  width: 720px;
+  height: 33px;
+  margin: 0 auto;
+}
+.footer_logo img {
+  float: left;
+  width: 86px;
+  height: 33px;
+  margin: 0 5px;
+}
+.footer_logo .up {
+  width: 38px;
+  height: 33px;
+}
+
+/*# sourceMappingURL=details.css.map */

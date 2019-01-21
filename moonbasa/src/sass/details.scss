@@ -1,0 +1,803 @@
+@charset "utf-8";
+@import "header";
+
+
+$box_width:1200px;
+$box_main_width:100%;
+$tab:1250px;
+$box_color:#abcdef;
+
+%main_width{
+    width:$box_main_width;
+}
+
+%box_width{
+    width:$box_width;
+    margin:0 auto;
+}
+%tab{
+    width:$tab;
+    margin:0 auto;
+}
+%btn{
+    width: 66px;
+    height: 77px;
+    background: #eee;
+    position: absolute;
+    top: 235px;
+    margin: auto;
+    z-index: 999;
+}
+%abtn{
+    position: absolute;
+    font-size: 127px;
+    font-family: simsun;
+    top: 491px;
+    cursor: pointer;
+    color: #000;
+    filter: alpha(opacity=30);
+    opacity: 0.3;
+    display: block;
+    z-index: 10;
+}
+
+
+
+
+
+.shop_menu{
+    width: 100%;
+    background-color: #ac0c70;
+}
+.menu_inner{
+    width: 1200px;
+    margin: 0 auto;
+    height: 33px;
+    ul li{
+        float: left;
+        width: 127px;
+        height: 33px;
+        text-align: center;
+        line-height: 33px;
+        border-right: 1px solid #900040;
+        a{
+            display: block;
+            color: #fff;
+            font-size: 14px;
+            height: 33px;
+            line-height: 33px;
+            text-decoration: none;
+        }
+    }
+    .all{
+        margin-left: 60px;
+        border-left: 1px solid #900040;
+    }
+}
+.product{
+    width: 100%;
+    height: 730px;
+    background-color: #fff;
+    .product_inner{
+        width: 1200px;  
+        margin: 20px auto;
+        .product_left{
+            float: left;
+            width: 431px;
+            padding: 8px 0 14px;
+            .page{
+                float: left;
+                width: 351px;
+                padding: 0 0 5px 14px;
+                color: #9a9a9a;
+                a{
+                    color: #9a9a9a;
+                    text-decoration: none;
+                    font-size: 12px;
+                }
+            }
+            .pic{
+                width: 380px;
+                margin: 0 15px;
+                clear: both;
+                position: relative;
+                .pic_lubo{
+                    margin: 20px auto;
+                    position: relative;
+                    .btn_left{
+                        position: absolute;
+                        top: 0;
+                        left: 0px;
+                        width: 33px;
+                        height: 79px;
+                        cursor: pointer;
+                        background: url(http://i2.mbscss.com/img/moonbasa2/20151209/slon.png) no-repeat 0 26px;
+                    }
+                    .btn_right{
+                        position: absolute;
+                        right: -10px;
+                        width: 33px;
+                        height: 79px;
+                        cursor: pointer;
+                        background: url(http://i2.mbscss.com/img/moonbasa2/20151209/sron.png) no-repeat 10px 26px;
+                    }
+                    
+                }
+            }
+
+            //放大镜样式
+            .spic {
+                width: 385px;
+                height: 520px;
+                border: 1px solid #ccc;
+                img{
+                    width: 385px;
+                    height: 520px;
+                }
+            }
+            
+            .sf {
+                // width: 98px;
+                // height: 130px;
+                background-color: rgba(255, 255, 0, .3);
+                border: 1px solid #ccc;
+                position: absolute;
+                top: 0;
+                left: 0;
+                display: none;
+            }
+            
+            .bf {
+                width: 380px;
+                height: 520px;
+                position: absolute;
+                left: 400px;
+                top: 0;
+                border: 1px solid #ccc;
+                overflow: hidden;
+                display: none;
+                z-index: 999;
+            }
+            
+            .bpic {
+                position: absolute;
+                left: 0px;
+                top: 0px;
+                // width: 1500px;
+            }
+
+
+
+
+
+            .pic_list{
+                overflow: hidden;
+                width: 300px;
+                position: relative;
+                margin-left: 44px;
+                ul{
+                    width: 300px;
+                    left: 0px;
+                    li{
+                        float: left;
+                        width: 60px;
+                        height: 81px;
+                        overflow: hidden;
+                        a{
+                            position: relative;
+                            display: block;
+                            width: 50px;
+                            height: 68px;
+                            border: 1px solid #fff;
+                            img{
+                                width: 50px;
+                                height: 68px;
+                                cursor: pointer;
+                                border: 1px solid #fff;
+                            }
+                            .hover{
+                                border: 1px solid #000;
+                            }
+                        }
+                    }
+                }
+            }
+            .share{
+                width: 380px;
+                height: 22px;
+                margin-top: 8px;
+                color: #484747;
+                font-size: 12px;
+                p a{
+                    text-decoration: none;
+                    color: #484747;
+                    float: right;
+                    margin-left: 15px;
+                    line-height: 16px;
+                    padding-left: 16px;
+                    background: url(http://i2.mbscss.com/img/moonbasa2/20151209/16012224.png) no-repeat -1px 1px;
+                }
+            }
+        }
+        .product_mid{
+            float: left;
+            border-right: 1px solid #E8E8E8;
+            margin-top: 32px;
+            margin-bottom: 15px;
+            width: 550px;
+            min-height: 625px;
+            margin-top: 30px;
+            padding: 0 55px 10px 14px;
+            color: #6a6a6a;
+            h2{
+                width: 100%;
+                overflow: hidden;
+                color: #1c1c1c;
+                font-family: 'Microsoft Yahei';
+                font-weight: 400;
+                font-size: 20px;
+            }
+            .lookp{
+                background: url(http://i0.mbscss.com/img/moonbasa2/item/goods_price_bg.png);
+                height: 126px;
+                margin-top: 15px;
+                padding-left: 16px;
+                padding-top: 10px;
+                position: relative;
+                width: 547px;
+                .price{ 
+                    height: 52px;
+                    width: 310px;
+                    margin: 5px 0 0 4px;
+                    color: #e70164;
+                    float: left;
+                    .leftPrice{
+                        height: 52px;
+                        font-size: 48px;
+                        line-height: 48px;
+                        vertical-align: top;
+                        display: block;
+                        color: #e50065;
+                        float: left;
+                        margin-left: -4px;
+                        i{
+                            font-size: 20px;
+                            font-style: normal;
+                        }
+                        b{
+                            font-weight: 500;
+                            margin-left: 6px;
+                        }
+                    }
+                    .rightPrice{
+                        float: left;
+                        .discountBox{
+                            display: block;
+                            font-size: 12px;
+                            color: #fff;
+                            text-align: center;
+                            padding: 2px 0;
+                            margin: 7px 16px 0 8px;
+                            width: 55px;
+                            line-height: 14px;
+                            background: url(http://i2.mbscss.com/img/moonbasa2/20151209/p01.png) no-repeat;
+                        }
+                        .markBox{
+                            padding: 0 20px 0 10px;
+                            color: #666;
+                            font-size: 14px;
+                            line-height: 20px;
+                        }
+                    }
+                }
+                .codeshow{
+                    width: 145px;
+                    border-top: 1px dashed #D58E64;
+                    float: right;
+                    margin-top: 10px;
+                    padding-top: 1px;
+                    position: relative;
+                    .cart-pic{
+                        display: block;
+                        float: left;
+                        cursor: pointer;
+                    }
+                    .mb-p{
+                        float: right;
+                        width: 90px;
+                        font-size: 12px;
+                        padding-top: 6px;
+                    }
+                    .ercode{
+                        display: none;
+                        position: absolute;
+                        background: #fff;
+                        width: 99%;
+                        height: 120px;
+                        top: 0;
+                        left: 0;
+                        border: 1px solid #e3e3e3;
+                        border-top: none;
+                        padding-top: 20px;
+                        text-align: center;
+                        img{
+                            width: 100px;
+                            height: 100px;
+                        }
+                        a{
+                            width: 12px;
+                            height: 12px;
+                            position: absolute;
+                            top: 5px;
+                            right: 5px;
+                            text-decoration: none;
+                            font-size: 18px;
+                        }
+                    }
+                }
+                .bao{
+                    float: left;
+                    font-size: 12px;
+                    width: 100%;
+                    line-height: 28px;
+                    padding-left: 8px;
+                }
+                .cheap{
+                    float: left;
+                    font-size: 12px;
+                    i{
+                        width: 63px;
+                        padding-left: 4px;
+                        color: #E50362;
+                        font-style: normal;
+                    }
+                    .tag{
+                        display: inline-block;
+                        width: 36px;
+                        height: 16px;
+                        margin-top: 5px;
+                        line-height: 16px;
+                        text-align: center;
+                        background: #E50362;
+                        color: #fff;
+                    }
+                }
+                .uaresb{
+                    background: #f4f4f4 url(http://i2.mbscss.com/img/moonbasa2/20130317/icon_down.jpg) no-repeat right 50%;
+                    margin-right: 12px;
+                    padding-right: 12px;
+                    float: right;
+                    position: absolute;
+                    height: 37px;
+                    right: 0;
+                    top: 90px;
+                    line-height: 37px;
+                    font-size: 12px;
+                    cursor: pointer;
+                }
+                .active{
+                    display: none;
+                    width: 510px;
+                    overflow: hidden;
+                    position: absolute;
+                    height: auto;
+                    top: 100px;
+                    background: #fff;
+                    padding: 5px 10px 10px;
+                    border: 1px solid #e3e3e3;
+                    z-index: 1;
+                    left: 20px;
+                    font-size: 12px;
+                    .til{
+                        text-align: right;
+                        border-bottom: 1px dotted #D8D8D8;
+                        padding: 2px 2px;
+                        margin-bottom: 8px;
+                        color: #888;
+                        a{
+                            cursor: pointer;
+                        }
+                    }
+                    .cheap{
+                        width: 100%;
+                        float: left;
+                        margin-top: 5px;  
+                        line-height: 26px;
+                    }
+                    .more{
+                        width: 100%;
+                        float: left;
+                        position: relative;
+                        margin-top: 15px;
+                        padding-top: 10px;
+                        border-top: 1px dotted #d8d8d8;
+                    }
+                }
+            }
+            .data{
+                padding-top: 25px;
+                position: relative;
+                .top{
+                    padding-bottom: 5px;
+                    color: #666;
+                    font-size: 12px;
+                    line-height: 22px;
+                    margin-top: 25px;
+                    li{
+                        float: left;
+                    }
+                    .tit{
+                        float: left;
+                        width: 35px;
+                        line-height: 27px;
+                    }
+                    .color{
+                        width: 543px;
+                        height: 47px;
+                        .txt{
+                            width: 360px;
+                            float: left;
+                            margin-top: -7px;
+                            .selectcolor{
+                                float: left;
+                                background: url(http://i2.mbscss.com/img/moonbasa2/20130317/color_bg.jpg) no-repeat;
+                                border: 0;
+                                padding: 2px;
+                                height: 42px;
+                                width: 98px;
+                                img{
+                                    display: block;
+                                    width: 28px;
+                                    height: 38px;
+                                    border-right: 2px solid #ccccca;
+                                }
+                                a{
+                                    float: left;
+                                    text-decoration: none;
+                                    color: #666;
+                                }
+                                .s1{
+                                    padding: 5px 0 0 0;
+                                    line-height: 16px;
+                                    display: inline-block;
+                                    width: 60px;
+                                    text-align: center;
+                                }
+                            }
+                        }
+                    } 
+                    .size{
+                        width: 543px;
+                        height: 50px;
+                        padding-top: 15px;
+                        a{
+                            float: left;
+                            min-width: 43px;
+                            height: 28px;
+                            margin: 0 9px 5px 0;
+                            line-height: 28px;
+                            text-align: center;
+                            border: 1px solid #ccc;
+                            font-size: 12px;
+                            text-decoration: none;
+                        }
+                    }
+                    .num{
+                        width: 543px;
+                        height: 50px;
+                        margin-top: 15px;
+                        p{
+                            float: left;
+                            border: 1px solid #ccc;
+                            width: 78px;
+                            height: 32px;
+                            position: relative;
+                            b,i{
+                                width: 54px;
+                                height: 32px;
+                                line-height: 32px;
+                                text-align: center;
+                                color: #000;
+                                font-size: 14px;
+                                font-weight: lighter;
+                                float: left;
+                                border-right: 1px solid #ccc;
+                            }
+                            i{
+                                height: 16px;
+                                line-height: 16px;
+                                width: 22px;
+                                right: 0;
+                                position: absolute;
+                                cursor: pointer;
+                            }
+                            .add{ 
+                                border-bottom: 1px solid #ccc;
+                                background: url(http://i2.mbscss.com/img/moonbasa2/20151209/add.png) no-repeat 50%;
+                                top: 0;     
+                            }
+                            .reduce{
+                                background: url(http://i2.mbscss.com/img/moonbasa2/20151209/remove.png) no-repeat 50%;
+                                bottom: 0;
+                            }
+                        }
+                        span{
+                            float: left;
+                            padding: 3px 0 0 12px;
+                            color: #7f7f7f;
+                        }
+                    }
+                }
+                .cart_btn{
+                    width: 560px;
+                    height: 50px;
+                    margin: 10px 0;
+                    span{
+                        float: left;
+                        width: 204px;
+                        height: 50px;
+                        line-height: 50px;
+                        text-align: center;
+                        font-family: 'Microsoft Yahei';
+                        font-size: 18px;
+                    }
+                    .buy{
+                        background: #fff;
+                        cursor: pointer;
+                        border: 1px solid #E40165;
+                        color: #e70164;
+                        margin-right: 30px;
+                    }
+                    .join{
+                        background: #e50065;
+                        cursor: pointer;
+                        margin-right: 10px;
+                        color: #fff;
+                        border: 1px solid #e50065;
+                    }
+                }
+                .bottom{
+                    width: 100%;
+                    height: 62px;
+                    font-size: 12px;
+                    color: #6a6a6a;
+                    margin-top: 20px;
+                    ul{
+                        padding: 5px 0;
+                        li{
+                            float: left;
+                            padding: 0 24px 0 0;
+                            margin-top: 8px;
+                            margin-bottom: 12px;
+                            img{
+                                float: left;
+                                margin-right: 5px;
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+        .product_right{
+            width: 126px;
+            float: left;
+            margin: 30px 0 0 20px;
+            p{
+                text-align: center;
+                font-size: 14px;
+                color: #dedede;
+                font-family: 'Microsoft Yahei';
+                margin-bottom: 8px;
+                span{
+                    color: #333;
+                    margin: 0 15px;
+                }
+            }
+            ul li{
+                margin: 2px 0;
+                a{
+                    display: block;
+                    width: 120px;
+                    height: 162px;
+                    text-align: center;
+                }
+                .jz{
+                    color: #555;
+                    margin: 5px 0 10px;
+                }
+            }
+            .tagbtn{
+                a{ 
+                    width: 54px;
+                    height: 24px;
+                    float: left;
+                }
+                .prev{
+                    background: url(http://i2.mbscss.com/img/moonbasa2/20151209/lbu.png) no-repeat 100%;
+                }
+                .next{
+                    background: url(http://i2.mbscss.com/img/moonbasa2/20151209/lbd.png) no-repeat 70%;
+                }
+            }
+        }
+    }
+}
+
+.mask {
+    width: 100%;
+    height: 1500px;
+    background: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: none;
+}
+
+.mola{
+    width: 600px;
+    height: 400px;
+    margin: 100px auto;
+    border: 1px solid #aaa;
+    background-color: #fff;
+    position: absolute;
+    left: 500px;
+    top: 250px;
+    z-index: 999;
+    display: none;
+    h3{
+        height: 30px;
+        line-height: 30px;
+        .close{
+            float: right;
+            margin-right: 20px;
+            font-size: 20px;
+            color: #333;
+            text-decoration: none;
+        }
+    }
+    .cart{
+        height: 160px;
+        background: url(http://images5.moonbasa.com/img/product/pro_cart.jpg) no-repeat 35% 50px;
+        color: #000;
+        font-size: 13px;
+        line-height: 26px;
+        margin: 25px 10px 0 17px;
+        padding: 0 0 8px 250px;
+        text-align: left;
+        width: 280px;
+        .p1{
+            font-size: 14px;
+            font-weight: bold;
+            padding: 50px 0 0 0;
+        }
+        .p2{
+            font-size: 13px;
+            line-height: 26px;
+            margin: 0;
+            padding: 0;
+            b{
+                color: #D4003B;
+                font-weight: bold;
+            }
+        }
+        .p3{
+            padding-top: 30px;
+            margin-left: -85px;
+            a{
+                padding: 0 10px;
+            }
+        }
+    }
+    
+}
+
+
+
+.footer{
+    @extend %main_width;
+    height: 400px;
+    background-color: #fff;
+}
+.footer_help{
+    @extend %main_width;
+    height: 145px;
+    background: #ececec;
+    padding: 5px 0 10px 0;
+    .help_inner{
+        @extend %box_width;
+        ul{
+            float: left;
+            padding: 10px 32px 0 32px;
+            li{
+                list-style: none;
+                line-height: 20px;
+                a{
+                    text-decoration: none;
+                    color: #7f7f7f;
+                    font-size: 12px;
+                }
+                font{
+                    font-size: 12px;
+                    color: #7f7f7f;
+                    line-height: 16px;
+                }
+            }
+            .lititle a{
+                color: #2f2f2f;
+                font-weight: 600;
+            }
+        }
+    }
+}
+.footer_info{
+    width: 670px;
+    height: 39px;
+    margin: 15px auto 0;
+    img{
+        float: left;
+        padding: 0 16px;
+        border-right: 1px solid #d9d9d9;
+    }
+    
+}
+.footer_copyright{
+    @extend %main_width;
+    height: 49px;
+    margin-top: 40px;
+    padding-bottom: 20px;
+    .copy_inner{
+        @extend %box_width;
+        position: relative;
+    p{
+        text-align: center;
+        font-size: 12px;
+        color: #797979;
+        line-height: 22px;
+        a{
+            text-decoration: none;
+            color: #797979;
+        }
+        a:hover{
+            color: #e60067;
+        }
+    }
+    .qxpp{
+        width: 465px;
+        border: solid 1px #CCC;
+        background: #f2f2f2;
+        color: #565656;
+        line-height: 22px;
+        position: absolute;
+        left: 375px;
+        top: 20px;
+        text-align: left;
+        padding: 5px 10px 5px 10px;
+        display: none;
+        font-size: 12px;
+        a{
+            text-decoration: none;
+            color: #797979;
+            padding: 0 5px 0 5px;
+            display: block;
+            float: left;
+        }
+    }
+    }
+    
+}
+.footer_logo{
+    width: 720px;
+    height: 33px;
+    margin: 0 auto;
+    img{
+        float: left;
+        width: 86px;
+        height: 33px;
+        margin: 0 5px;
+    }
+    .up{
+        width: 38px;
+        height: 33px;
+    }
+}

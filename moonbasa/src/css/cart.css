@@ -1,0 +1,508 @@
+@charset "UTF-8";
+.footer_help, .footer_copyright {
+  width: 100%;
+}
+
+.footer_help .help_inner, .footer_copyright .copy_inner {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+body {
+  color: #555;
+  font-size: 12px;
+  font-family: "宋体";
+  line-height: 22px;
+  background: #fff;
+}
+body a {
+  text-decoration: none;
+}
+
+.head {
+  background: url(http://i1.mbscss.com/img/moonbasa/2013/09/07/bg1.jpg) repeat-x scroll 0 26px transparent;
+  width: 100%;
+}
+.head .header {
+  width: 1200px;
+  height: 119px;
+  margin: 0 auto;
+}
+.head .header .logo {
+  float: left;
+  width: 196px;
+  height: 107px;
+  padding-left: 23px;
+}
+.head .header .prac {
+  float: left;
+  color: #e8e8e8;
+}
+.head .header .prac span {
+  display: inline-block;
+  line-height: 26px;
+  padding: 0 10px 0 12px;
+  color: #747474;
+  font-size: 12px;
+}
+.head .header .info {
+  width: auto;
+  height: 26px;
+  position: relative;
+  float: right;
+  color: #747474;
+  font-size: 12px;
+  line-height: 26px;
+}
+.head .header .info a {
+  color: #747474;
+  text-decoration: none;
+  display: inline-block;
+}
+.head .header .info img {
+  display: none;
+}
+.head .header .info .sp {
+  color: #e8e8e8;
+}
+.head .header .info .help {
+  padding: 0 5px;
+}
+.head .header .info .weixin {
+  position: relative;
+  padding-left: 32px;
+  background: url(http://i2.mbscss.com/img/moonbasa/2014/02/25/icon.jpg) no-repeat;
+  background-position: 10px 6px;
+}
+.head .header .info .weixin img {
+  position: absolute;
+  left: -30px;
+  top: 22px;
+}
+.head .header .info .mobile {
+  position: relative;
+  padding-left: 32px;
+  background: url(http://i2.mbscss.com/img/moonbasa/2014/02/25/icon.jpg) no-repeat;
+  background-position: 10px -61px;
+  margin-right: 15px;
+}
+.head .header .info .mobile img {
+  position: absolute;
+  top: 22px;
+  left: -60px;
+}
+.head .header .step1 {
+  float: right;
+  margin-top: 33px;
+  width: 618px;
+  height: 25px;
+  background: url(http://shopping.moonbasa.com/images/progressBar.gif) 0 0;
+}
+
+.main {
+  margin: 0 auto;
+  padding-top: 13px;
+  width: 1200px;
+}
+.main .carbody {
+  margin: 0 auto;
+  width: 1200px;
+}
+.main .carbody .title {
+  width: 1200px;
+  height: 36px;
+  background: #ebebeb;
+  margin: 0 auto;
+  line-height: 47px;
+}
+.main .carbody .title dt {
+  float: left;
+  padding-left: 40px;
+  width: 40px;
+  line-height: 13px;
+}
+.main .carbody .title dt input {
+  margin: 12px 12px 0;
+  width: 13px;
+  height: 13px;
+}
+.main .carbody .title dd {
+  float: left;
+  height: 36px;
+  color: #414141;
+  font-size: 14px;
+  font-family: "宋体";
+  line-height: 36px;
+}
+.main .carbody .title .qb {
+  width: 56px;
+  text-align: left;
+}
+.main .carbody .title .sp {
+  width: 440px;
+  text-align: center;
+}
+.main .carbody .title .dj {
+  width: 150px;
+  text-align: center;
+}
+.main .carbody .title .sl {
+  width: 100px;
+  text-align: center;
+}
+.main .carbody .title .jexj {
+  width: 192px;
+  text-align: center;
+}
+.main .carbody .title .cz {
+  width: 58px;
+  text-align: left;
+}
+.main .carbody .buygoods {
+  padding-top: 9px;
+  border-top: solid 1px #e1e1e1;
+  border-right: solid 1px #ebebeb;
+  border-bottom: solid 1px #ebebeb;
+  border-left: solid 1px #ebebeb;
+  min-height: 310px;
+}
+.main .carbody .buygoods .title {
+  margin: 0 auto;
+  width: 1118px;
+  height: 30px;
+  background: #f5f5f5;
+  color: #5d5d5d;
+  font-size: 13px;
+  line-height: 30px;
+}
+.main .carbody .buygoods .title span {
+  margin-right: 5px;
+  margin-left: 46px;
+  color: #333;
+  font-size: 12px;
+}
+.main .carbody .buygoods .shop {
+  margin: 0 auto;
+  padding-left: 40px;
+  width: 1118px;
+}
+.main .carbody .buygoods .shop .sel {
+  margin-left: 0;
+  width: 1118px;
+  height: 67px;
+}
+.main .carbody .buygoods .shop dt {
+  float: left;
+  display: block;
+  padding-left: 40px;
+  width: 40px;
+  height: 67px;
+  line-height: 67px;
+}
+.main .carbody .buygoods .shop dt input {
+  margin: 0 12px;
+  width: 13px;
+  height: 67px;
+}
+.main .carbody .buygoods .shop dd {
+  float: left;
+  color: #414141;
+  font-size: 14px;
+  font-family: "宋体";
+}
+.main .carbody .buygoods .shop .sp {
+  width: 476px;
+  line-height: 19px;
+}
+.main .carbody .buygoods .shop .sp .left {
+  float: left;
+  width: 70px;
+}
+.main .carbody .buygoods .shop .sp .left a {
+  color: #797979;
+  text-decoration: none;
+  font-size: 12px;
+}
+.main .carbody .buygoods .shop .sp .left a img {
+  margin: 6px 0 0 10px;
+  width: 39px;
+  height: 53px;
+  border: 1px solid #eeeced;
+}
+.main .carbody .buygoods .shop .sp .right {
+  float: right;
+  padding: 15px 0;
+  width: 406px;
+}
+.main .carbody .buygoods .shop .sp .right .spmc {
+  float: left;
+  width: 406px;
+  color: #5c5c5c;
+  text-align: left;
+  font-size: 12px;
+  font-family: "宋体";
+  line-height: 18px;
+}
+.main .carbody .buygoods .shop .sp .right .spmc a {
+  color: #5B5B5B;
+}
+.main .carbody .buygoods .shop .sp .right .xq {
+  float: left;
+  width: 406px;
+  color: #9d9d9d;
+  text-align: left;
+  font-size: 12px;
+  font-family: "宋体";
+  line-height: 18px;
+}
+.main .carbody .buygoods .shop .dj {
+  display: inline;
+  padding-top: 20px;
+  width: 115px;
+  text-align: center;
+  font-size: 12px;
+}
+.main .carbody .buygoods .shop .dj .price {
+  width: 115px;
+  height: 18px;
+  color: #000;
+  text-align: right;
+  line-height: 18px;
+}
+.main .carbody .buygoods .shop .sl {
+  padding-top: 20px;
+  padding-left: 70px;
+  width: 95px;
+  text-align: center;
+}
+.main .carbody .buygoods .shop .sl .add, .main .carbody .buygoods .shop .sl .reduce {
+  overflow: hidden;
+  width: 18px;
+  height: 24px;
+  border: 1px solid #ebebeb;
+  color: #000;
+  text-align: center;
+  line-height: 24px;
+  float: left;
+}
+.main .carbody .buygoods .shop .sl .num {
+  width: 30px;
+  height: 24px;
+  border-top: solid 1px #ebebeb;
+  border-right: none;
+  border-bottom: solid 1px #ebebeb;
+  border-left: none;
+  text-align: center;
+  font-size: 12px;
+  font-family: "宋体";
+  line-height: 24px;
+  float: left;
+}
+.main .carbody .buygoods .shop .jexj {
+  padding-top: 20px;
+  width: 118px;
+  color: #d90077;
+  text-align: right;
+  font-size: 12px;
+  font-family: "宋体";
+  line-height: 20px;
+}
+.main .carbody .buygoods .shop .cz {
+  position: relative;
+  padding-top: 12px;
+  width: 158px;
+  text-align: center;
+}
+.main .carbody .buygoods .shop .cz .xiugai {
+  overflow: hidden;
+  margin: 0 auto;
+  width: 50px;
+  height: 24px;
+  color: #000;
+  font-size: 12px;
+  font-family: "宋体";
+  line-height: 24px;
+  cursor: pointer;
+}
+.main .carbody .buygoods .shop .cz .xiugai a {
+  color: #000;
+}
+.main .carbody .buygoods .shop .cz .shanchu {
+  margin: 0 auto;
+  height: 18px;
+  color: #a6a6a6;
+  font-size: 12px;
+  line-height: 18px;
+}
+.main .carbody .buygoods .shop .cz .shanchu a {
+  color: #a6a6a6;
+}
+.main .carbody .buygoods .paym {
+  margin: 0 auto;
+  padding-left: 40px;
+  width: 1158px;
+  height: 170px;
+  border-top: solid 1px #ebebeb;
+}
+.main .carbody .buygoods .paym .left {
+  float: left;
+  margin-left: 70px;
+  margin-top: 15px;
+}
+.main .carbody .buygoods .paym .right {
+  float: right;
+  width: 400px;
+  margin-top: 40px;
+  text-align: right;
+  margin-right: 50px;
+}
+.main .carbody .buygoods .paym .right .zs {
+  float: right;
+  margin-bottom: 25px;
+  height: 25px;
+  color: #333333;
+  text-align: right;
+  font-size: 12px;
+  font-family: "宋体";
+  line-height: 30px;
+}
+.main .carbody .buygoods .paym .right .zs .pics {
+  color: #d90075;
+  font-weight: 700;
+}
+.main .carbody .buygoods .paym .right .zs .zj {
+  font-weight: 700;
+}
+.main .carbody .buygoods .paym .right .zs .rmb {
+  color: #d60076;
+  font-size: 14px;
+  font-family: "微软雅黑";
+}
+.main .carbody .buygoods .paym .right .zs .howmuch {
+  color: #d60076;
+  font-weight: 700;
+  font-size: 18px;
+}
+.main .carbody .buygoods .paym .right .js .set {
+  display: inline-block;
+  width: 226px;
+  height: 48px;
+  color: #fff;
+  text-align: center;
+  font-size: 22px;
+  line-height: 48px;
+  background: #EB0067;
+  cursor: pointer;
+}
+.main .carbody .buygoods .section {
+  float: left;
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 0 147px 0 146px;
+  width: 687px;
+  height: 250px;
+  background: url(http://images.moonbasa.com/img/shopcar.jpg) 202px 62px no-repeat;
+}
+.main .carbody .buygoods .section dl {
+  float: left;
+  padding-top: 89px;
+  padding-left: 208px;
+  width: 405px;
+  height: 120px;
+}
+.main .carbody .buygoods .section dl dt {
+  width: 100%;
+  height: 35px;
+  color: #333;
+  font: 25px/35px '微软雅黑';
+}
+.main .carbody .buygoods .section dl dd {
+  width: 370px;
+  font: 16px/35px '微软雅黑';
+  line-height: 20px;
+}
+.main .carbody .buygoods .section dl dd a {
+  color: #d3023c;
+  font: 16px/35px '微软雅黑';
+}
+
+.footer_help {
+  height: 145px;
+  background: #ececec;
+  padding: 5px 0 10px 0;
+}
+.footer_help .help_inner ul {
+  float: left;
+  padding: 10px 32px 0 32px;
+}
+.footer_help .help_inner ul li {
+  list-style: none;
+  line-height: 20px;
+}
+.footer_help .help_inner ul li a {
+  text-decoration: none;
+  color: #7f7f7f;
+  font-size: 12px;
+}
+.footer_help .help_inner ul li font {
+  font-size: 12px;
+  color: #7f7f7f;
+  line-height: 16px;
+}
+.footer_help .help_inner ul .lititle a {
+  color: #2f2f2f;
+  font-weight: 600;
+}
+
+.footer_info {
+  width: 670px;
+  height: 39px;
+  margin: 15px auto 0;
+}
+.footer_info img {
+  float: left;
+  padding: 0 16px;
+  border-right: 1px solid #d9d9d9;
+}
+
+.footer_copyright {
+  height: 49px;
+  margin-top: 40px;
+  padding-bottom: 20px;
+}
+.footer_copyright .copy_inner {
+  position: relative;
+}
+.footer_copyright .copy_inner p {
+  text-align: center;
+  font-size: 12px;
+  color: #797979;
+  line-height: 22px;
+}
+.footer_copyright .copy_inner p a {
+  text-decoration: none;
+  color: #797979;
+}
+.footer_copyright .copy_inner .qxpp {
+  width: 465px;
+  border: solid 1px #CCC;
+  background: #f2f2f2;
+  color: #565656;
+  line-height: 22px;
+  position: absolute;
+  left: 375px;
+  top: 20px;
+  text-align: left;
+  padding: 5px 10px 5px 10px;
+  display: none;
+  font-size: 12px;
+}
+.footer_copyright .copy_inner .qxpp a {
+  text-decoration: none;
+  color: #797979;
+  padding: 0 5px 0 5px;
+  display: block;
+  float: left;
+}
+
+/*# sourceMappingURL=cart.css.map */

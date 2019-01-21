@@ -1,0 +1,162 @@
+@charset "utf-8";
+$box_width:1200px;
+$box_main_width:100%;
+$tab:1250px;
+$box_color:#abcdef;
+
+%main_width{
+    width:$box_main_width;
+}
+
+%box_width{
+    width:$box_width;
+    margin:0 auto;
+}
+
+.header{
+    @extend %main_width;
+    // height: 245px; 
+}
+// 头部导航
+.header_nav{
+    @extend %main_width;
+    height: 35px;
+    background-color: #222;
+    .nav_inner{
+        @extend %box_width;
+        .inner_left{
+            width: 301px;
+            height: 26px;
+            float: left;
+            background:url(http://i0.mbscss.com/img/moonbasa/2018/ydw/M4_25_114110.jpg) no-repeat -22px top ;
+        }
+        .inner_right{
+            width: 456px;
+            height: 26px;
+            float: right;
+            font-size: 12px;
+            color: #fff;
+            padding-top: 10px;
+            position: relative;
+            a{
+                display: inline-block;
+                padding: 0 8px;
+                text-decoration: none;
+                color: #fff;
+                position: relative;
+                img{
+                    position: absolute;
+                    left: -70px; 
+                    top: 20px; 
+                    display: none;
+                }
+            }
+            .phone{
+                padding-left: 14px;
+                background: url(http://i3.mbscss.com/img/moonbasa/2015/04/lyz/0831205002.jpg) no-repeat;
+            }
+            .cart{
+                background: url(http://i1.mbscss.com/img/moonbasa/2018/ydw/M4_26_101323.png) no-repeat 50px -7px;
+                width: 50px;
+                height: 20px;
+            }
+            .weixing img{
+                left: -120px;
+            }
+            .cart_none{
+                width: 358px;
+                height: 20px;
+                border: solid 1px #f2f2f2;
+                background-color: #FFF;
+                position: absolute;
+                right: 17px;
+                top: 27px;
+                padding: 40px 0;
+                color: #000;
+                text-align: center;
+                
+            }
+        }
+    }
+}
+// 头部图片部分
+.header_topic{
+    @extend %main_width;
+    height: 48px;
+    background-color: #f6f6f6;
+    .topic_inner{
+        @extend %box_width;
+        text-align: center;
+        overflow: hidden;
+        a{
+            float: left;
+            display: block;
+            img{
+                width: 240px;
+                height: 48px;
+                border: 0;
+                
+            }
+        }
+        
+    }
+}
+// 头部logo部分
+.header_logo{
+    @extend %box_width;
+    height: 103px;
+    background-color: #fff;
+    padding: 10px 0 16px;
+    margin-top: 10px;
+    .logo_left{
+        float: left;
+        width: 320px;
+        a{
+            background: transparent url(http://i1.mbscss.com/img/moonbasa/2018/ydw/M6_26_100916.jpg) no-repeat scroll center !important;
+            display: block;
+            height: 129px;
+            width: 320px;
+            margin-top: -10px;
+        }
+    }
+    .search{
+        width: 500px;
+        float: left;
+        padding:20px 0 0 55px;
+        .search_input{
+            width: 540px;
+            height: 35px;
+            background: url(http://i3.mbscss.com/img/moonbasa/2015/09/bon/ssbg.jpg) no-repeat;
+            .inp input{
+                width: 440px;
+                height: 29px;
+                padding-left: 5px;
+                line-height: 30px;
+                margin: 2px 4px 0 4px;
+                color: #b9b9b9;
+                text-indent: 7px;
+                border: none;
+            }
+            .sub input{
+                width: 80px;
+                height: 30px;
+                text-indent: -200px;
+                background: 0;
+                border: 0;
+            }
+        }
+        .key{
+            color: #9c9d9f;
+            padding: 5px;
+            font-size: 12px;
+            a{
+                color: #9c9d9f; 
+                text-decoration: none;
+                padding: 0 3px;
+            }
+        }
+    }
+    .logo_right{
+        float: right;
+    }
+}

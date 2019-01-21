@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>详情页</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/details.css">
+</head>
+
+<body>
+    <!-- 头部 -->
+    <div class="header">
+        <div class="header_nav">
+            <div class="nav_inner">
+                <div class="inner_left"></div>
+                <div class="inner_right">
+                    <a href="http://10.31.161.32/1807/moonbasa/src/login.html">登录</a><span>|</span>
+                    <a href="http://10.31.161.32/1807/moonbasa/src/registor.html">注册</a><span>|</span>
+                    <a href="#" class="weixing">微信
+                        <img src="http://i1.mbscss.com/img/moonbasa/2016/dong/160919171653.jpg">
+                    </a><span>|</span>
+                    <a href="#" class="weibo">微博
+                        <img src="http://i3.mbscss.com/img/moonbasa/2015/04/lyz/0826143310.jpg">
+                    </a><span>|</span>
+                    <a href="#" class="phone">手机版
+                        <img src="http://i3.mbscss.com/img/moonbasa/2015/04/lyz/0826143318.jpg" width="191" height="231">
+                    </a><span>|</span>
+                    <a href="#">收藏梦芭莎</a><span>|</span>
+                    <a href="http://10.31.161.32/1807/moonbasa/src/cart.html" class="cart">购物车</a>
+                    <div class="cartdiv" style="display: none;">
+                        <div class="cart_none">您的购物车里还没有商品，欢迎选购!</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header_logo">
+            <div class="logo_left">
+                <a title="梦芭莎全球女性时尚网购" href="http://www.moonbasa.com/"></a>
+            </div>
+            <div class="search">
+                <div class="search_inner">
+                    <div class="search_input">
+                        <span class="inp">
+                            <input type="text" placeholder="狂欢继续 返场再战 全场低至3折">
+                        </span>
+                        <span class="sub">
+                            <input type="button" value="搜索">
+                        </span>
+                    </div>
+                    <div class="key">
+                        <a href="http://s.moonbasa.com/?keyword=%u51AC%u5B63&amp;sort=3&amp;type=1&amp;cn=18294&amp;other=columnid:10|acid:4284|model:forced"
+                            target="_blank">冬新品</a><span>|</span>
+                        <a href="http://s.moonbasa.com/?keyword=%u5916%u5957&amp;sort=3&amp;type=1&amp;cn=18294&amp;other=columnid:10|acid:4223|model:forced"
+                            target="_blank">外套</a><span>|</span>
+                        <a href="http://s.moonbasa.com/?keyword=%u6BDB%u8863%20%u6BDB%u886B&amp;sort=3&amp;type=1&amp;cn=18294&amp;other=columnid:10|acid:4275|model:forced"
+                            target="_blank">毛衣</a><span>|</span>
+                        <a href="http://s.moonbasa.com/?keyword=%u536B%u8863&amp;sort=3&amp;type=1&amp;cn=18294&amp;other=columnid:10|acid:4265|model:forced"
+                            target="_blank">卫衣</a><span>|</span>
+                        <a href="http://s.moonbasa.com/?keyword=%u7FBD%u7ED2&amp;sort=3&amp;type=1&amp;cn=18294&amp;other=columnid:10|acid:4277|model:forced"
+                            target="_blank">羽绒</a><span>|</span>
+                        <a href="http://s.moonbasa.com/?keyword=%u6587%u80F8&amp;sort=3&amp;type=1&amp;cn=18294&amp;other=columnid:10|acid:4281|model:forced"
+                            target="_blank">文胸</a><span>|</span>
+                        <a href="http://s.moonbasa.com/?keyword=%u4FDD%u6696%u6253%u5E95&amp;sort=3&amp;type=1&amp;cn=18294&amp;other=columnid:10|acid:4271|model:forced"
+                            target="_blank">保暖打底</a><span>|</span>
+                        <a href="http://s.moonbasa.com/004.html?keyword=%u5305%u5305&amp;sort=3&amp;type=1&amp;cn=18294&amp;other=columnid:10|acid:4288|model:forced"
+                            target="_blank">包包</a><span>|</span>
+                        <a href="http://s.moonbasa.com/007.html?keyword=%u978B&amp;sort=3&amp;type=1&amp;cn=18294&amp;other=columnid:10|acid:4274|model:forced"
+                            target="_blank">潮鞋</a>
+                    </div>
+                </div>
+            </div>
+            <div class="logo_right">
+                <a target="_blank" href="http://topic.moonbasa.com/article/article_show/8436">
+                    <img alt="" src="http://i0.mbscss.com/img/moonbasa/2018/zf/M11_13_175950.gif">
+                </a>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <!-- 店铺导航 -->
+    <div class="shop_menu">
+        <div class="menu_inner">
+            <ul>
+                <li class="all"><a href="http://www.moonbasa.com/channel/allsort">全部商品分类</a></li>
+                <li><a href="">首页</a></li>
+                <li><a href="">所有宝贝</a></li>
+                <li><a href="">11.11专享区</a></li>
+                <li><a href="">连衣裙</a></li>
+                <li><a href="">外套</a></li>
+                <li><a href="">雪纺衫/衬衣</a></li>
+                <li><a href="">半身裙</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- 商品介绍 -->
+    <div class="product">
+        <div class="product_inner">
+            <div class="product_left">
+                <div class="page">
+                    <a href="http://brands.moonbasa.com/d-brands-default2">首页</a>>
+                    <a href="http://list.moonbasa.com/52906-1-40-0.html">秋季新品</a>>
+                    <a href="http://list.moonbasa.com/52906-1-40-0.html">秋季新品</a>>
+                    <a href="http://list.moonbasa.com/52906-1-40-0.html">秋季新品</a>
+                </div>
+                <div class="pic">
+                    <div class="spic">
+                        <img src="" alt="">
+                        <div class="sf"></div>
+                    </div>
+                    <div class="bf">
+                        <img src="" alt="" class="bpic">
+                    </div>
+                    <div class="pic_lubo">
+                        <div class="btn_left"></div>
+                        <div class="btn_right"></div>
+                        <div class="pic_list">
+                            <!-- 拼接渲染 -->
+                        </div>
+                    </div>
+                    <div class="share">
+                        <p>
+                            商品编码：970149924
+                            <a href="">收藏</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="product_mid">
+                <h2>星弥2018秋季新款女装双排扣纯色梭织大衣气质名媛女士风衣</h2>
+                <div class="lookp">
+                    <div class="price">
+                        <span class="leftPrice">
+                            <i>￥</i>
+                            <b>308</b>
+                        </span>
+                        <div class="rightPrice">
+                            <span class="discountBox">6.2折</span>
+                            <span class="markBox">¥<del>499</del></span>
+                        </div>
+                    </div>
+                    <div class="codeshow">
+                        <img class="cart-pic" src="http://i2.mbscss.com/img/moonbasa2/20151209/move01.gif" alt="">
+                        <div class="mb-p">
+                            <p>手机便捷购买</p>
+                        </div>
+                        <div class="ercode">
+                            <img src="http://item.moonbasa.com/item/QRCodeCreate?content=http://qr.moonbasa.com/agent/qr?c=970149924%EF%BC%86cn=84758%EF%BC%86type=1%EF%BC%86adsiteid=10000007&version=5"
+                                alt="">
+                            <a href="" class="closecode">×</a>
+                        </div>
+                    </div>
+                    <p class="bao">包邮</p>
+                    <div class="cheap">
+                        <i>参与优惠:</i>
+                        <font class="tag">满减</font>
+                        <font class="tit" title="星弥满299减50元，满599减100元！">星弥满299减50元，满599减100元！</font>
+                    </div>
+                    <div class="uaresb">
+                        <span>共<span id="sbcounts">1</span>项</span>
+                        <span>查看</span>
+                    </div>
+                    <div class="active">
+                        <div class="til">
+                            <p style="float:left;">活动</p>
+                            <a id="hidemytb"><span>收起</span>
+                                <img src="http://i2.mbscss.com/img/moonbasa2/20151209/up.png" alt="">
+                            </a>
+                        </div>
+                        <div class="cheap">
+                            <i>参与优惠:</i>
+                            <font class="tag">满减</font>
+                            <font class="tit" title="星弥满299减50元，满599减100元！">星弥满299减50元，满599减100元！</font>
+                        </div>
+                        <div class="more">
+                            <span>(不包邮地区：台湾；香港；澳门；海外)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="data">
+                    <div class="top">
+                        <div class="color">
+                            <ul>
+                                <li class="tit">颜色</li>
+                                <li class="txt">
+                                    <p class="selectcolor">
+                                        <span class="spanColork">
+                                            <a href="javascript:;" title="罗兰紫">
+                                                <img src="http://vp1.mbsimg.com/ProductImg/97/1803/color/970149924-CL01-00-C.jpg"
+                                                    alt="">
+                                            </a>
+                                        </span>
+                                        <a title="罗兰紫" class="s1" href="javascript:void(0)">罗兰紫</a>
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="size">
+                            <ul>
+                                <li class="tit">尺码</li>
+                                <li class="txt">
+                                    <a href="">L</a>
+                                    <a href="">M</a>
+                                    <a href="">S</a>
+                                    <a href="">XL</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="num">
+                            <ul>
+                                <li class="tit">数量</li>
+                                <li class="txt">
+                                    <p>
+                                        <b>1</b>
+                                        <i class="add"></i>
+                                        <i class="reduce"></i>
+                                    </p>
+                                    <span>现在有货</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="cart_btn">
+                        <span class="buy">立刻购买</span>
+                        <span class="join">加入购物车</span>
+                    </div>
+                    <div class="bottom">
+                        <ul>
+                            <li>
+                                <img src="http://i2.mbscss.com/img/moonbasa2/20151209/16012209.png" alt="">
+                                <span>7天无条件退货</span>
+                            </li>
+                            <li>
+                                <img src="http://i2.mbscss.com/img/moonbasa2/20151209/16012213.png" alt="">
+                                <span>东莞市星米电子商务有限公司发货</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="product_right">
+                <p>—<span>看了又看</span>—</p>
+                <ul>
+                    <li>
+                        <a href="http://item.moonbasa.com/p-970149680.html?cn=30110&model=1&type=1&adsiteid=10000007">
+                            <img src="http://vp2.mbsimg.com/ProductImg/97/1803/small/970149680-CL01-01-S.jpg" alt="">
+                        </a>
+                        <p class="jz">￥228</p>
+                    </li>
+                    <li>
+                        <a href="http://item.moonbasa.com/p-970149768.html?cn=30110&model=1&type=1&adsiteid=10000007">
+                            <img src="http://vp1.mbsimg.com/ProductImg/97/1803/small/970149768-CL01-01-S.jpg" alt="">
+                        </a>
+                        <p class="jz">￥289</p>
+                    </li>
+                    <li>
+                        <a href="http://item.moonbasa.com/p-970149770.html?cn=30110&model=1&type=1&adsiteid=10000007">
+                            <img src="http://vp2.mbsimg.com/ProductImg/97/1803/small/970149770-CL01-01-S.jpg" alt="">
+                        </a>
+                        <p class="jz">￥289</p>
+                    </li>
+                </ul>
+                <div class="tagbtn">
+                    <a href="javascript:;" class="prev"></a>
+                    <a href="javascript:;" class="next"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mask"></div>
+    <div class="mola">
+        <h3><a href="javascript:;" class="close">×</a></h3>
+        <div class="cart">
+            <p class="p1">该商品已成功加入购物车</p>
+            <p class="p2">购物车共 <b></b> 件商品</p>
+            <p class="p3">
+                <a href="javascript:;" class="shopping">
+                    <img src="http://i2.mbscss.com/img/login/2012/06/11/nextshop.gif" alt="">
+                </a>
+                <a href="http://10.31.161.32/1807/moonbasa/src/cart.html" class="jiesuan">
+                    <img src="http://i2.mbscss.com/img/login/2012/06/11/goshop.gif" alt="">
+                </a>
+            </p>
+        </div>
+    </div>
+
+    <!-- 底部 -->
+    <div class="footer">
+            <div class="footer_help">
+                <div class="help_inner">
+                    <ul>
+                        <li class="lititle"><a target="_blank" href="http://help.moonbasa.com/help/detial/4">新手指南</a></li>
+                        <li><a target="_blank" href="http://help.moonbasa.com/help/detial/3">注册新用户</a></li>
+                        <li><a target="_blank" href="http://help.moonbasa.com/help/detial/4">如何订购</a></li>
+                        <li><a target="_blank" href="http://help.moonbasa.com/help/detial/162">如何修改订单</a></li>
+                        <li><a target="_blank" href="http://www.moonbasa.com/sizechart/brasize.aspx">尺码对照表</a></li>
+                    </ul>
+                    <ul>
+                        <li class="lititle"><a href="">支付方式</a></li>
+                        <li><a href="">支付方式</a></li>
+                        <li><a href="">账户提现及退款时效</a></li>
+                        <li><a href="">查看账户余额</a></li>
+                    </ul>
+                    <ul>
+                        <li class="lititle"><a href="">配送方式</a></li>
+                        <li><a href="">配送费收取标准</a></li>
+                        <li><a href="">配送范围及配送时效</a></li>
+                        <li><a href="">签收注意事项</a></li>
+                        <li><a href="">海外订购</a></li>
+                    </ul>
+                    <ul>
+                        <li class="lititle"><a href="">退换货服务</a></li>
+                        <li><a href="">退换货政策</a></li>
+                        <li><a href="">退换货流程</a></li>
+                        <li><a href="">隐私申请</a></li>
+                    </ul>
+                    <ul>
+                        <li class="lititle"><a href="">会员制度及优惠</a></li>
+                        <li><a href="">优惠活动</a></li>
+                        <li><a href="">VIP优惠尊享</a></li>
+                        <li><a href="">大宗购物</a></li>
+                        <li><a href="">积分制度</a></li>
+                    </ul>
+                    <ul>
+                        <li class="lititle"><a href="">帮助中心</a></li>
+                        <li><a href="">忘记密码</a></li>
+                        <li><a href="">常见问题</a></li>
+                        <li><a href="">在线客服</a></li>
+                        <li><a href="">联系我们</a></li>
+                        <li><a href="">专利平台</a></li>
+                    </ul>
+                    <ul>
+                        <li class="lititle"><a href="">咨询订购</a></li>
+                        <li><font>400-716-2828</font></li>
+                        <li class="lititle"><a href="">客户服务</a></li>
+                        <li><font>400-716-7878</font></li>
+                        <li class="lititle"><a href="">招商热线</a></li>
+                        <li><font>400-716-0266</font></li>
+                    </ul>
+                    <ul>
+                        <li><img src="http://i0.mbscss.com/img/moonbasa/2015/mobile/M4_14_150441.png" alt=""></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer_info">
+                <img src="http://i1.mbscss.com/img/vip/2014/12/19/mbs_img_1.jpg" alt="">
+                <img src="http://i2.mbscss.com/img/moonbasa/2014/02/25/mbs_img_2.jpg" alt="">
+                <img src="http://i4.mbscss.com/img/moonbasa/2014/02/25/mbs_img_4.jpg" alt="" style="border:0;">
+            </div>
+            <div class="footer_copyright">
+                <div class="copy_inner">
+                    <p>
+                        <a href="">首页</a>
+                        <a href="" class="qx">旗下品牌</a>
+                        <a href="">零售店址</a>
+                        <a href="">梦芭莎网盟</a>
+                        <a href="">网店代理</a>
+                        <a href="">网站地址</a>
+                        <a href="">友情链接</a>
+                    </p>
+                    <p>     
+                        Copyright © 2010-2019 梦芭莎官方网站，广州摩拉网络科技有限公司 All Rights Reserved 粤B2-20080069号 
+                        <img src="http://i5.mbscss.com/img/moonbasa2/beian.png" alt="">
+                        粤公网安备44010302000075
+                    </p>
+                    <div class="qxpp">
+                        <a title="梦芭莎" target="_blank" href="http://www.moonbasa.com">梦芭莎</a>
+                        <a title="梦芭莎旗下欧式女装" target="_blank" href="http://www.rutisher.com">若缇诗</a>
+                        <a title="梦芭莎旗下商务男装" target="_blank" href="http://www.monteamor.com">蒙蒂埃莫</a>
+                        <a title="梦芭莎旗下童装" target="_blank" href="http://www.baoyeah.com">宝耶</a>
+                        <a title="梦芭莎旗下时尚服装品牌" target="_blank" href="http://www.ing2ing.com">ing2ing</a>
+                        <a title="梦芭莎旗下原创女装" target="_blank" href="http://www.suorang.com">所然</a>
+                        <a title="梦芭莎旗下化妆品" target="_blank" href="http://www.qjherb.com">千金本草</a>
+                        <a title="梦芭莎旗下少女内衣品牌" target="_blank" href="http://www.cherriespie.com">樱桃派内衣</a>
+                        <a title="梦芭莎旗下运动装品牌" target="_blank" href="http://www.0-100s.com">运动0100</a>
+                        <a title="梦芭莎旗下日韩女装" target="_blank" href="http://www.korirl.com">韩伊儿</a>
+                        <a title="梦芭莎旗下意式高端女装" target="_blank" href="http://www.alaves.cn">艾莱维</a>
+                        <a title="梦芭莎女装" target="_blank" href="http://lady.moonbasa.com">梦芭莎女装</a>
+                        <a title="梦芭莎内衣" target="_blank" href="http://lingerie.moonbasa.com">梦芭莎内衣</a>
+                        <a title="梦芭莎女鞋" target="_blank" href="http://shoes.moonbasa.com">梦芭莎女鞋</a>
+                        <a title="梦芭莎高端内衣" target="_blank" href="http://lingerie.moonbasa.com/channel/vocation">梦芭莎高端内衣</a>
+                        <a title="梦芭莎饰品" target="_blank" href="http://shipin.moonbasa.com">梦芭莎饰品</a>
+                        <a title="梦芭莎活动" target="_blank" href="http://topic.moonbasa.com/">梦芭莎活动</a>
+                        <a title="梦芭莎评论" target="_blank" href="http://review.moonbasa.com/">梦芭莎评论</a>
+                        <a title="梦芭莎图片" target="_blank" href="http://photo.moonbasa.com/">梦芭莎图片</a>
+                        <a title="梦芭莎俱乐部" target="_blank" href="http://club.moonbasa.com/">梦芭莎俱乐部</a>
+                        <a title="梦芭莎标签" target="_blank" href="http://tag.moonbasa.com/">梦芭莎标签</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_logo">
+                <img src="http://i6.mbscss.com/img/moonbasa/2012/12/20/mbs_f_01.jpg" alt="">
+                <img src="http://i7.mbscss.com/img/moonbasa/2012/12/20/mbs_f_02.jpg" alt="">
+                <span>
+                    <a href="http://netadreg.gzaic.gov.cn/ntmm/WebSear/WebLogoPub.aspx?logo=440105105022007080200053">
+                        <img src="http://netadreg.gzaic.gov.cn/ntmm/default/images/logo_down.jpg" alt="" class="up">
+                    </a>
+                    <a href="http://weiquan.moonbasa.com/">
+                        <img src="http://i0.mbscss.com/img/edm/20131010_edm/logo.jpg" alt="">
+                    </a>
+                </span>
+                <img src="http://i1.mbscss.com/img/moonbasa/2012/12/20/mbs_f_04.jpg" alt="">
+                <img src="http://i2.mbscss.com/img/moonbasa/2012/12/20/mbs_f_05.jpg" alt="">
+                <span>
+                    <a href="http://www.ccredit.cn/zx/zxt.aspx?id=65">
+                        <img src="http://i3.mbscss.com/img/moonbasa/2012/12/20/mbs_f_06.jpg" alt="">
+                    </a>
+                    <a href="https://search.szfw.org/cert/l/CX20120920001676001786?id=5">
+                        <img src="http://i4.mbscss.com/img/moonbasa/2012/12/20/mbs_f_07.jpg" alt="">
+                    </a>
+                </span>
+            </div>
+        </div>
+
+    <script src="script/thirdplugins/jquery.js"></script>
+    <script src="script/thirdplugins/cookie.js"></script>
+    <script src="script/js/details.js"></script>
+</body>
+
+</html>

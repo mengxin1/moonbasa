@@ -1,0 +1,944 @@
+@charset "utf-8";
+$box_width:1200px;
+$box_main_width:100%;
+$tab:1250px;
+$box_color:#abcdef;
+
+%main_width{
+    width:$box_main_width;
+}
+
+%box_width{
+    width:$box_width;
+    margin:0 auto;
+}
+%tab{
+    width:$tab;
+    margin:0 auto;
+}
+%btn{
+    width: 66px;
+    height: 77px;
+    background: #eee;
+    position: absolute;
+    top: 235px;
+    margin: auto;
+    z-index: 999;
+}
+%abtn{
+    position: absolute;
+    font-size: 127px;
+    font-family: simsun;
+    top: 290px;
+    cursor: pointer;
+    color: #000;
+    opacity: 0.3;
+    display: block;
+    z-index: 10;
+}
+
+.header{
+    @extend %main_width;
+    height: 245px;
+    
+}
+
+.main{
+    @extend %main_width; 
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.footer{
+    @extend %main_width;
+    height: 400px;
+    background-color: #fff;
+}
+// 头部导航
+.header_nav{
+    @extend %main_width;
+    height: 35px;
+    background-color: #222;
+    .nav_inner{
+        @extend %box_width;
+        .inner_left{
+            width: 301px;
+            height: 26px;
+            float: left;
+            background:url(http://i0.mbscss.com/img/moonbasa/2018/ydw/M4_25_114110.jpg) no-repeat -22px top ;
+        }
+        .inner_right{
+            width: 456px;
+            height: 26px;
+            float: right;
+            font-size: 12px;
+            color: #fff;
+            padding-top: 10px;
+            position: relative;
+            a{
+                display: inline-block;
+                padding: 0 8px;
+                text-decoration: none;
+                color: #fff;
+                position: relative;
+                img{
+                    position: absolute;
+                    left: -70px; 
+                    top: 20px; 
+                    display: none;
+                }
+            }
+            .phone{
+                padding-left: 14px;
+                background: url(http://i3.mbscss.com/img/moonbasa/2015/04/lyz/0831205002.jpg) no-repeat;
+            }
+            .cart{
+                background: url(http://i1.mbscss.com/img/moonbasa/2018/ydw/M4_26_101323.png) no-repeat 50px -7px;
+                width: 50px;
+                height: 20px;
+            }
+            .weixing img{
+                left: -120px;
+            }
+            .cart_none{
+                width: 358px;
+                height: 20px;
+                border: solid 1px #f2f2f2;
+                background-color: #FFF;
+                position: absolute;
+                right: 17px;
+                top: 27px;
+                padding: 40px 0;
+                color: #000;
+                text-align: center;
+                
+            }
+            .my{
+                width: 275px;
+                height: 34px;
+                line-height: 34px;
+                background: #222;
+                position: absolute;
+                top: 0;
+                left: -190px;
+                span{
+                    float: left;
+                }
+                .cusname{
+                    float: left;
+                }
+                .mymbs{
+                    float: left;
+                    ul li{
+                        line-height: 22px;
+                        a{
+                            color: #747474;  
+                        }
+                        a:hover{
+                            text-decoration: underline;
+                            color: #e50065;
+                        }
+                    }
+                }
+                .tuichu{
+                    float: left;
+                }
+            }
+        }
+    }
+}
+// 头部图片部分
+.header_topic{
+    @extend %main_width;
+    height: 48px;
+    background-color: #f6f6f6;
+    .topic_inner{
+        @extend %box_width;
+        text-align: center;
+        overflow: hidden;
+        a{
+            float: left;
+            display: block;
+            img{
+                width: 240px;
+                height: 48px;
+                border: 0;
+                
+            }
+        }
+        
+    }
+}
+// 头部logo部分
+.header_logo{
+    @extend %box_width;
+    height: 103px;
+    background-color: #fff;
+    padding: 10px 0 16px;
+    margin-top: 10px;
+    .logo_left{
+        float: left;
+        width: 320px;
+        a{
+            background: transparent url(http://i1.mbscss.com/img/moonbasa/2018/ydw/M6_26_100916.jpg) no-repeat scroll center !important;
+            display: block;
+            height: 129px;
+            width: 320px;
+            margin-top: -10px;
+        }
+    }
+    .search{
+        width: 500px;
+        float: left;
+        padding:20px 0 0 55px;
+        .search_input{
+            width: 540px;
+            height: 35px;
+            background: url(http://i3.mbscss.com/img/moonbasa/2015/09/bon/ssbg.jpg) no-repeat;
+            .inp input{
+                width: 440px;
+                height: 29px;
+                padding-left: 5px;
+                line-height: 30px;
+                margin: 2px 4px 0 4px;
+                color: #b9b9b9;
+                text-indent: 7px;
+                border: none;
+            }
+            .sub input{
+                width: 80px;
+                height: 30px;
+                text-indent: -200px;
+                background: 0;
+                border: 0;
+            }
+        }
+        .key{
+            color: #9c9d9f;
+            padding: 5px;
+            font-size: 12px;
+            a{
+                color: #9c9d9f; 
+                text-decoration: none;
+                padding: 0 3px;
+            }
+        }
+    }
+    .logo_right{
+        float: right;
+    }
+}
+// 内部导航栏
+.nav{
+    @extend %main_width;
+    height: 44px;
+    .nav_inner{
+        @extend %box_width;
+        position: relative;
+        .nav_list{
+            margin-left: 262px;
+            li{
+                list-style-type: none;
+                float: left;
+                margin-right: 32px;
+                a{
+                    color: #727272;
+                    text-decoration: none;
+                    font-family: 微软雅黑;
+                    font-size: 14px;
+                    float: left;
+                    line-height: 34px;
+                    border-bottom: 2px solid transparent;
+                }
+                a:hover{
+                    color: rgb(230, 0, 99);
+                }
+            }
+        }
+        .nav_con{
+            position: absolute;
+            left: 0;
+            z-index: 20;
+            top: 0px;
+            
+            ul{
+                list-style: none;
+                padding: 0;
+                margin: 0;
+                width: 190px;
+                line-height: 20px;
+                background: #fff;
+                padding-bottom: 7px;
+                height: 467px;
+                position: relative;
+                li{
+                    padding: 0 16px 0 35px;
+                    .haveborder{
+                        border-right: 1px solid #f3f3f3;
+                    }
+                }
+                .li0{
+                    height: 43px;
+                    border-bottom: 1px solid #4e4e4e;
+                    background: #626262;
+                }
+            }
+        }
+        .licon{
+            padding: 7px 0;
+            border-bottom: 1px solid #f3f3f3;
+            h3{
+                font-size: 20px;
+                font-family: microsoft yahei;
+                padding: 0;
+                font-weight: bold;
+                margin: 0 0 6px;
+                a{
+                    text-decoration: none;
+                    color: #000;
+                    font-size: 17px;
+                }
+            }
+            h4 a{
+                text-decoration: none;
+                font-family: simsun;
+                color: #8c8c8c;
+                font-size: 12px;
+                white-space: nowrap;
+                width: 38%;
+                display: inline-block;
+                line-height: 16px;
+                padding: 0 1% 0 6%;
+                font-weight: 400;
+            }
+        }
+        .second{
+            width: 570px;
+            height: 100%;
+            position: absolute;
+            top: 44px;
+            left: 190px;
+            background-color: #fff;
+            border: 1px solid #cdcdcd;
+            display: none;
+            padding-left: 30px;
+            line-height: 15px;
+            height: 420px;
+            dl{
+                padding: 10px 0 5px;
+                width: 50%;
+                float: left;
+                dt{
+                    width: 90%;
+                    font-weight: bold;
+                    font-size: 13px;
+                    margin-bottom: 8px;
+                    color: #000;
+                    border-bottom: 2px solid #f3f3f3;
+                    padding-bottom: 10px;
+                    a{
+                        text-decoration: none;
+                        color: #000; 
+                    }
+                }
+                dd{
+                    width: 90%;
+                    height: 106px;
+                    a{
+                        text-decoration: none;
+                        margin-right: 13px;
+                        font-family: simsun;
+                        float: left;
+                        color: #8d8d8d;
+                        font-size: 12px;
+                        white-space: nowrap;
+                        width: 66px;
+                        line-height: 17px;
+                        margin-bottom: 4px;
+                    }
+                }
+            }
+        }
+    }
+}
+.banner{
+    @extend %main_width;
+    height: 430px;
+    position: relative;
+    .pic{
+        position: relative;
+        .show{
+            display: block;
+        }
+        li{
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            overflow: hidden;
+            display: none;
+            div{
+                height: 430px;
+            }
+            .pic1{
+                background: url(http://i1.mbscss.com/img/moonbasa/2018/zf/M11_16_112402.jpg) no-repeat center top;
+            }
+            .pic2{
+                background: url(http://i3.mbscss.com/img/moonbasa/2018/zf/M11_16_112037.jpg) no-repeat center top;
+            }
+            .pic3{
+                background: url(http://i0.mbscss.com/img/moonbasa/2018/zf/M11_16_112036.jpg) no-repeat center top;
+            }
+            .pic4{
+                background: url(http://i3.mbscss.com/img/moonbasa/2018/zf/M11_16_100621.jpg?a) no-repeat center top;
+            }
+            .pic5{
+                background: url(http://i2.mbscss.com/img/moonbasa/2018/ydw/M11_16_134959.jpg) no-repeat center top;
+            }
+            .pic6{
+                background: url(http://i4.mbscss.com/img/moonbasa/2018/zf/M11_8_163313.jpg) no-repeat center top;
+            }
+            .pic7{
+                background: url(http://i6.mbscss.com/img/moonbasa/2018/zf/M11_16_100518.jpg?a) no-repeat center top;
+            }
+            .pic8{
+                background: url(http://i3.mbscss.com/img/moonbasa/2018/zf/M11_16_100621.jpg?a) no-repeat center top;
+            }
+            .pic9{
+                background: url(http://i0.mbscss.com/img/moonbasa/2018/ydw/M4_23_221431.jpg) no-repeat center top;
+            }
+            .pic10{
+                background: url(http://i5.mbscss.com/img/moonbasa/2018/zf/M11_13_134434.png) no-repeat center top;
+            }
+            .pic11{
+                background: url(http://i2.mbscss.com/img/moonbasa/2018/zf/M7_5_180649.jpg?a) no-repeat center top;
+            }
+            .pic12{
+                background: url(http://i7.mbscss.com/img/moonbasa/2018/zf/M11_8_163315.jpg?a) no-repeat center top;
+            }
+        }
+    }
+    .btn{
+        width: 291px;
+        height: 13px;
+        position: absolute;
+        right: 50px;
+        bottom: 30px;
+        span{
+            float: left;
+            background-color: #000;
+            width: 13px;
+            height: 13px;
+            margin-left: 10px;
+            border-radius: 13px;
+        }
+        .active{
+            background-color: #fff;
+        }
+    }
+    
+    
+}
+.selecte{
+    @extend %main_width;
+    height: 2028px;
+    .selecte_inner{
+        @extend %box_width;
+        img{
+            display: inline;
+            float: left;
+        }
+    }
+}
+.brand{
+    @extend %main_width;
+    height: 2964px;
+    background: url(http://i4.mbscss.com/img/moonbasa/2018/zyc/M5_21_101016_01.jpg) #fff no-repeat top center;
+    .brand_inner{
+        @extend %box_width;
+        img{
+            float: left;
+        }
+    }
+}
+.tab{
+    @extend %main_width;
+    height: 730px;
+    .tab_btn{
+        @extend %tab;
+        img{
+            float: left;
+        }
+    }
+    .tab_con{
+        @extend %tab;
+        position: relative;
+        div{
+            position: absolute;
+            top:117px;
+            left: 0;
+            img{
+                float: left;
+            }
+        }
+    }
+}
+.trends{
+    @extend %main_width;
+    height: 741px;
+    .trends_inner{
+        @extend %box_width;
+        position: relative;
+        .tit{
+            width: $box_width;
+            float: left;
+        }
+        .left{
+           @extend %btn;
+            left: 20px;      
+        }
+        .right{
+            @extend %btn;
+            right: 20px;
+        }
+        .wrap{
+            width: 1200px;
+            height: 558px;
+            margin: 0 auto;
+            overflow: hidden;
+            position: relative;
+            .box{
+                height: 442px;
+                margin: 0 auto;
+                overflow: hidden;
+                position: absolute;
+                left: -400px;
+                top: 0px;
+                img{
+                    float: left;
+                    margin-left: 11px;
+                }
+            }
+        }
+    }
+}
+.fame{
+    @extend %main_width;
+    height: 652px;
+    .fame_inner{
+        @extend %box_width;
+    }
+}
+.discount{
+    @extend %main_width;
+    height: 802px;
+    .discount_inner{
+        @extend %box_width;
+    }
+}
+.category{
+    @extend %main_width;
+    height: 785px;
+    .category_inner{
+        @extend %box_width;
+        img{
+            float: left;
+        }
+    }
+}
+.newarrival{
+    @extend %main_width;
+    height: 944px;
+    .new_title{
+        @extend %box_width;
+        height: 199px;
+        img{
+            float: left;
+        }
+    }
+    .new_con{
+        @extend %box_width;
+        overflow: hidden;
+        position: relative;
+        height: 745px;
+        ul {
+            height: 745px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            li{
+            width: 1200px;
+            height: 745px;
+            float: left;
+            }
+
+        }
+        .prev{
+            @extend %abtn;
+            left: 0px;    
+        }
+        .next{
+            @extend %abtn;
+            right: 0px;
+        }
+    }
+}
+.recommended{
+    @extend %main_width;
+    // height: 9370px;
+    height: 700px;
+    .recom_inner{
+        @extend %box_width;
+        .img{
+            float: left;
+        }
+        .recom_con dl{
+            float: left;
+            background: #fff;
+            margin: 0 12px 30px 0;
+            position: relative;
+            width: 225px;
+            dt img{
+                width: 100%;
+            }
+            dd{
+                padding-left: 10px;
+                margin-top: 14px;
+                a{
+                    text-decoration: none;
+                    color: #494949;
+                    font-size: 12px;
+                    .title{
+                        text-align: center;
+                        float: left;
+                        font-size: 14px;
+                        width: 200px;
+                        overflow: hidden;
+                        white-space: nowrap;
+                        text-overflow: ellipsis;
+                        color: #6f6f6f;
+                    }
+                    .price{
+                        color: red;
+                        font-size: 20px;
+                        text-align: center;
+                        margin-left: 45px;
+                        margin-top: 3px;
+                        .del{
+                            padding-left: 5px;
+                            width: 40px;
+                            color: #808080;
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+            
+        }
+    }
+}
+.activity{
+    @extend %main_width;
+    height: 630px;
+    background-color: #f7f7f7;
+    .active_inner{
+        @extend %box_width;
+        .act_con li{
+            float: left;
+            width: 384px;
+            height: 213px;
+            border: solid 1px #e3e1e2;
+            margin-right: 14px;
+            margin-top: 15px;
+            background: #FFF;
+            a{
+                text-decoration: none;
+                font-size: 12px;
+                img{
+                    width: 384px;
+                    height: 181px;
+                    border-bottom: solid 1px #e3e1e2;
+                    float: left;
+                }
+                span{
+                    float: left;
+                    font-size: 14px;
+                    line-height: 31px;
+                    padding-left: 15px;
+                    color: #000000;
+                }
+            }
+        }
+    }
+}
+.footer_help{
+    @extend %main_width;
+    height: 145px;
+    background: #ececec;
+    padding: 5px 0 10px 0;
+    .help_inner{
+        @extend %box_width;
+        ul{
+            float: left;
+            padding: 10px 32px 0 32px;
+            li{
+                list-style: none;
+                line-height: 20px;
+                a{
+                    text-decoration: none;
+                    color: #7f7f7f;
+                    font-size: 12px;
+                }
+                font{
+                    font-size: 12px;
+                    color: #7f7f7f;
+                    line-height: 16px;
+                }
+            }
+            .lititle a{
+                color: #2f2f2f;
+                font-weight: 600;
+            }
+        }
+    }
+}
+.footer_info{
+    width: 670px;
+    height: 39px;
+    margin: 15px auto 0;
+    img{
+        float: left;
+        padding: 0 16px;
+        border-right: 1px solid #d9d9d9;
+    }
+    
+}
+.footer_copyright{
+    @extend %main_width;
+    height: 49px;
+    margin-top: 40px;
+    padding-bottom: 20px;
+    .copy_inner{
+        @extend %box_width;
+        position: relative;
+    p{
+        text-align: center;
+        font-size: 12px;
+        color: #797979;
+        line-height: 22px;
+        a{
+            text-decoration: none;
+            color: #797979;
+        }
+        a:hover{
+            color: #e60067;
+        }
+    }
+    .qxpp{
+        width: 465px;
+        border: solid 1px #CCC;
+        background: #f2f2f2;
+        color: #565656;
+        line-height: 22px;
+        position: absolute;
+        left: 375px;
+        top: 20px;
+        text-align: left;
+        padding: 5px 10px 5px 10px;
+        display: none;
+        font-size: 12px;
+        a{
+            text-decoration: none;
+            color: #797979;
+            padding: 0 5px 0 5px;
+            display: block;
+            float: left;
+        }
+    }
+    }
+    
+}
+.footer_logo{
+    width: 720px;
+    height: 33px;
+    margin: 0 auto;
+    img{
+        float: left;
+        width: 86px;
+        height: 33px;
+        margin: 0 5px;
+    }
+    .up{
+        width: 38px;
+        height: 33px;
+    }
+}
+.side{
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: 999;
+    width: 36px;
+    background: #000;
+    position: fixed;
+    .side_main{
+        height: 400px;
+        position: absolute;
+        top: 15%;
+        .licon{
+            width: 36px;
+            height: 36px;
+            cursor: pointer;
+            position: relative;
+        }
+        .licon:hover{
+            background-color: rgb(193,0,85);
+        }
+        .side_cart{
+            padding: 8px 0;
+            width: 36px;
+            height: 107px;
+            border-top: 1px solid #3E3E3E;
+            border-bottom: 1px solid #3E3E3E;
+            cursor: pointer;
+            margin: 10px 0;
+            .cart-icon{
+                width: 34px;
+                height: 21px;
+                background: url(http://i2.mbscss.com/img/moonbasa2/20151209/nitemf_05.png) no-repeat center;
+            }
+            .cart-font{
+                margin: 6px 0;
+                padding: 0 12px;
+                width: 10px;
+                height: 48px;
+                color: #fff;
+                font-size: 14px;
+                line-height: 18px;
+            }
+            .cart-ring{
+                width: 36px;
+                height: 22px;
+                background: url(http://i2.mbscss.com/img/moonbasa2/20151209/red_ring.png) no-repeat center;
+                p{
+                    color: #fff;
+                    text-align: center;
+                    line-height: 22px;
+                    font-size: 12px;
+                }
+            }
+        }
+
+        .side_top:hover{
+            background-color: #000;
+        }
+
+        .my_kong{
+            width: 100%;
+            height: 36px;
+            background: url(http://i2.mbscss.com/img/moonbasa2/20151209/nitemf_09.png) no-repeat center;
+        }
+        .my_con{
+            display: none;
+            position: absolute;
+            right: 36px;
+            top: 0;
+            width: 274px;
+            border: 1px solid #e5e5e5;
+            border-right: none;
+            background: #fff; 
+            h3 span{
+                color: #979797;
+                font-size: 20px;
+                float: right;
+                margin-right: 15px;
+                font-weight: 400;
+                margin-top: 10px;
+            }
+            .my_con_mid{
+                text-align: center;
+                margin-top: 40px;
+                p{
+                    font-size: 12px;
+                    color: #797979;
+                    margin: 6px 0;
+                    height: 26px;
+                    a{
+                        text-decoration: none;
+                        float: left;
+                        display: block;
+                        width: 85px;
+                        height: 24px;
+                        font-size: 12px;
+                        font-family: SimSun;
+                        line-height: 24px;
+                    }
+                    .mylogin{
+                        margin-right: 20px;
+                        border: 1px solid #c10055;
+                        background: #c10055;
+                        color: #fff;
+                        margin-left: 40px;
+                    }
+                    .myreg{
+                        border: 1px solid #c10055;
+                        background: #fff;
+                        color: #c10055;
+                    }
+                }
+                div{
+                    width: 274px;
+                    height: 30px;
+                    margin-top: 10px;
+                    a{
+                        float: left;
+                        width: 135px;
+                        height: 30px;
+                        background: #F4F4F4;
+                        text-align: center;
+                        font-size: 12px;
+                        line-height: 30px;
+                        color: #797979;
+                        display: inline-block;
+                        text-decoration: none;
+                        border: 1px solid #e5e5e5;
+                    }
+                }
+            }
+        }
+        .collect-icon{
+            width: 100%;
+            height: 36px;
+            background: url(http://i2.mbscss.com/img/moonbasa2/20151209/nitemf_07.png) no-repeat center;
+        }
+        .wechat-icon{
+            width: 100%;
+            height: 36px;
+            background: url(http://i2.mbscss.com/img/moonbasa2/20151209/nitemf_08.png) no-repeat center;
+
+        }
+        .code{
+            display: none;
+            width: 145px;
+            height: 348px;
+            background: url(http://i1.mbscss.com/img/moonbasa/2018/lsc/M4_3_174920.png) no-repeat center;
+            position: absolute;
+            top:-230px;
+            right:32px;
+        }
+        .service-icon{
+            width: 100%;
+            height: 36px;
+            background: url(http://i2.mbscss.com/img/moonbasa2/20151209/service_out.png) no-repeat center;
+        }
+       
+        .top-icon{
+            position: absolute;
+            bottom: -180px;
+            width: 100%;
+            height: 36px;
+            background: url(http://i2.mbscss.com/img/moonbasa2/20151209/menu_top.png) no-repeat center;
+        }
+
+    }
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>梦芭莎注册</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/registor.css">
+</head>
+
+<body>
+    <div class="head">
+        <a href="http://www.moonbasa.com">
+            <img src="http://i0.mbscss.com/img/moonbasa/2017/xy/M4_5_134701.jpg" alt="">
+        </a>
+    </div>
+    <div class="main">
+        <div class="pic">
+            <img src="http://i0.mbscss.com/img/moonbasa/2018/zf/M10_19_113700.jpg" alt="">
+        </div>
+        <div class="message">
+            <div class="mess_head">
+                <span class="txt1">登录</span>
+                <span class="txt2">注册 
+                    <span class="line"></span>
+                </span>
+            </div>
+            <div class="form">
+                <form action="http://10.31.161.32/1807/moonbasa/php/registor.php" method="post" id="checkform">
+                    <p class="phone">
+                        <label for="tel" class="label"></label>
+                        <input type="text" placeholder="手机号/邮箱" name="tel" maxlength="11" id="tel" autocomplete="off"><br><br>
+                        <label id="tel-error" class="error" for='tel'>必填，11位电话号码</label>
+                    </p>
+                    <p class="code">
+                        <a href="">换一张</a>
+                        <input type="text" placeholder="验证码" class="code" name="code" autocomplete="off">
+                        <img src="http://login.moonbasa.com/verifycode/showimg?guid=fa0d0bb8-5090-d605-a502-baebda3d47ec&token=908ff4ef-4895-43a0-b926-4b26b358aa89"><br><br><br>
+                        <label id="code-error" class="error" for="code">必填</label>
+                    </p>
+                    <p class="mcode">
+                        <input type="text" placeholder="请输入动态验证码" name="mcode" autocomplete="off">
+                        <input type="button" value="获取动态验证码" class="btn"><br><br>
+                        <label id="mcode-error" class="error" for="mcode">必填</label>
+                    </p>
+                    <p class="mima">
+                        <label for="password" class="label"></label>
+                        <input type="password" placeholder="密码" name="password" id="password"><br><br>
+                        <label id="password-error" class="error" for="password">必填，六位以上的密码</label>
+                    </p>
+                    <p class="again">
+                        <label for="password2" class="label"></label>
+                        <input type="password" placeholder="确认密码" name="password2" id="password2"><br><br>
+                        <label id="password2-error" class="error" for="password2">必填</label>
+                    </p>
+                    <p class="mit">
+                        <input type="submit" value="同意以下协议，提交" name="submit" id="submit">
+                    </p>
+                    <p class="agree">
+                        <input type="checkbox" name="check" id="check" checked><span><i>同意</i>梦芭莎注册条款</span><br>
+                        <label id="check-error" class="error" for="check"></label>
+                    </p>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="foot">
+        <a href="http://www.moonbasa.com/" rel="nofollow" title="女性内衣专家梦芭莎首页">首页</a>
+        <a href="http://help.moonbasa.com/help/detial/33" rel="nofollow">公司简介</a>
+        <a href="http://www.moonbasa.com/" title="梦芭莎">旗下品牌</a>
+        <a href="http://help.moonbasa.com/help/ShopMap.aspx" rel="nofollow">零售店址</a>
+        <a href="http://union.moonbasa.com" title="梦芭莎网站联盟">梦芭莎网盟</a>
+        <a href="http://fenxiao.moonbasa.com/">网店代理</a>
+        <a href="http://www.moonbasa.com/home/sitemap" target="_blank" title="梦芭莎网店代理">网站地图</a>
+        <a href="http://www.moonbasa.com/category">友情链接</a>
+        <a href="http://help.moonbasa.com/help/jop.html" title="梦芭莎评论">加入我们</a>
+        <br>
+        Copyright © 2010-2019 梦芭莎官方网站，广州摩拉网络科技有限公司 All Rights Reserved 粤B2-20080069号
+    </div>
+
+    <script src="script/thirdplugins/jquery.js"></script>
+    <script src="script/thirdplugins/jquery.validate.js"></script>
+    <script src="script/js/registor.js"></script>
+</body>
+
+</html>
